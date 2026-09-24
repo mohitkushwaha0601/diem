@@ -9,10 +9,18 @@ Produces one static HTML page per day for an SSB-prep news archive, built from r
 
 ## 1. Research (do this first, every time)
 
-- Use web search/fetch to find **today's real news** (or the date given by the user) across: India, Defence, Geopolitics, International affairs, Politics, Economy, Sports.
-- Pick 6–10 stories total. Prefer one strong story per category; skip a category if nothing genuinely notable happened — never invent a story to fill a slot.
-- For every story, get a real, working source URL (Reuters, BBC, AP, PIB, major outlets, etc.). Never fabricate a headline, quote, figure or link.
+- Use web search/fetch to find **today's real news** (or the date given by the user). Think from an SSB-preparation lens: India, Defence/DRDO, domestic affairs, politics, economy, international affairs/geopolitics, science/tech and sports are reference points to widen your search, not a fixed checklist or quota — a genuinely consequential story from any subject area qualifies, and no single beat (including DRDO) should be forced in when nothing significant happened there that day.
+- Aim for 10–16 distinct, consequential stories if sourcing supports them; fewer is better than filler. Rank purely by actual significance to SSB preparation, not by category quotas or even beat coverage — allow multiple stories from one beat when merited, and skip a beat entirely (noting the gap) when nothing significant happened.
+- For every story, get a real, working source URL (Reuters, BBC, AP, PIB, major outlets, etc.). Never fabricate a headline, quote, figure or link. Cross-check consequential or contested claims against a second independent outlet or an official primary source (DRDO, PIB, Ministry of Defence, Parliament, RBI, UN, etc.).
 - Note the outlet + date in the citation text (e.g. "Reuters, 24 Sep").
+
+## 2. Compare with the previous brief (do this before writing)
+
+- Find the most recent existing page under `Dates/` (the one dated immediately before this brief) and read it.
+- For each story you plan to cover, check whether it continues something already reported (an ongoing operation, negotiation, trial, investigation, series, etc.). If so, make "What happened?" explicitly state what changed since the earlier report (e.g. "Since the 23 Sep brief, talks progressed from X to Y") rather than re-describing the same status quo as new.
+- If a story from the previous brief has clearly concluded or been superseded, you may note that resolution briefly instead of silently dropping it.
+- Do not carry a story forward with no material development just to keep it in the archive.
+- This is what keeps the archive useful over time instead of becoming 365 near-identical generic news dumps — the point is a dated record of what changed, not a fresh unrelated snapshot each day.
 
 ## 2. Neutrality rules
 
@@ -58,7 +66,7 @@ Read `templates/daily-brief-template.html` and replace these placeholders (do no
   </article>
   ```
   `NN` is a two-digit sequence number (`01`, `02`, …). Number of `<article>` blocks is not fixed — one per researched story.
-- `{{REVISION_POINTS}}` → exactly 3 `<li><strong>Connective theme:</strong> one sentence tying two or more of today's stories together.</li>` items.
+- `{{REVISION_POINTS}}` → exactly 3 `<li><strong>Connective theme:</strong> one sentence tying two or more of today's stories together.</li>` items. One of the three must instead be an explicit `<li><strong>Compared with <previous date>:</strong> one sentence naming a concrete thing that changed, advanced, or resolved since the last brief.</li>` (skip this only if this is the first brief in the archive, and say so in your report).
 
 The template already includes the `.home-link` element pointing back to `../index.html` — leave it as is.
 
