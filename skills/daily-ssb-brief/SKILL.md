@@ -27,8 +27,10 @@ Produces one static HTML page per day for an SSB-prep news archive, built from r
 - `summary`: ~50 words, standalone precis.
 - `event` (What happened?): 1–2 sentences, factual.
 - `importance` (Why it matters?): 1–2 sentences.
+- `india_angle` (India's stand/perspective): 1–2 sentences on why this news matters to India specifically, or India's stated position — even for non-India stories, tie it to Indian interest, strategy or precedent. If genuinely no India angle exists, say so briefly rather than forcing one.
 - `viewpoints` (Competing viewpoints): 1–2 sentences presenting both sides fairly.
 - `cue` (SSB cue): one practical line telling the reader how to talk about this in a GD/Lecturette/PI.
+- `explore`: 3–6 short one/two-word keywords for further reading, directly related to the story (e.g. for a NATO–Russia–Ukraine story: `NATO`, `Global impact`, `Baltics`, `Sanctions`).
 - `source`: one or more real `<a href="URL">Outlet, DD Mon</a>` links, semicolon-separated if more than one. Use "Source:" singular or "Sources:" plural depending on count.
 
 ## 4. Fill the template
@@ -47,9 +49,11 @@ Read `templates/daily-brief-template.html` and replace these placeholders (do no
     <dl>
       <dt>What happened?</dt><dd>Event text.</dd>
       <dt>Why it matters</dt><dd>Importance text.</dd>
+      <dt>India's stance</dt><dd>India angle text.</dd>
       <dt>Competing viewpoints</dt><dd>Viewpoints text.</dd>
     </dl>
     <p class="cue"><strong>SSB cue:</strong> Cue text.</p>
+    <p class="explore"><strong>Explore:</strong> <span class="chip">Keyword</span> <span class="chip">Keyword</span> <span class="chip">Keyword</span></p>
     <p class="source">Source(s): <a href="URL">Outlet, DD Mon</a>.</p>
   </article>
   ```
@@ -66,6 +70,7 @@ The template already includes the `.home-link` element pointing back to `../inde
 ## 6. Update index.html
 
 - Open `index.html`.
+- Update the `<p class="updated">Last updated on ...</p>` line to the date being generated.
 - Insert a new entry immediately after the opening `<ul>` tag (so the newest date appears first):
   ```html
   <li>
@@ -73,7 +78,7 @@ The template already includes the `.home-link` element pointing back to `../inde
     <a href="./Dates/<filename>"><dd Month yyyy label></a>
   </li>
   ```
-- If an `<li>` linking to that same `Dates/<filename>` already exists, do not add a duplicate — leave index.html unchanged.
+- If an `<li>` linking to that same `Dates/<filename>` already exists, do not add a duplicate — leave the list unchanged but still refresh the "Last updated" line.
 
 ## 7. Report back
 
