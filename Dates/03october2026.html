@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="3 October 2026 current affairs brief for SSB: facts, relevance, competing viewpoints, and discussion cues.">
+  <title>3 October 2026 | Current Affairs Brief</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#182c39;
+      --muted:#51626b;
+      --navy:#153a50;
+      --saffron:#c86529;
+      --green:#24715d;
+      --paper:#f5f3ed;
+      --line:#d9dfdc;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    a { color:#125c75; text-underline-offset: 3px; }
+    a:focus-visible { outline:3px solid var(--saffron); outline-offset:3px; }
+    .wrap { width: min(1100px, calc(100% - 20px)); margin: auto; }
+    header {
+      background: var(--navy);
+      color:#fff;
+      border-bottom: 6px solid var(--saffron);
+      padding: 28px 0 24px;
+    }
+    .eyebrow {
+      margin:0 0 8px;
+      color:#ffd5aa;
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:0;
+      font:700 clamp(2rem,7vw,4.3rem)/1.08 Georgia, serif;
+    }
+    header p:last-child {
+      max-width:780px;
+      margin:16px 0 0;
+      color:#e1ebed;
+      font-size:0.98rem;
+    }
+    main { padding:20px 0 48px; }
+    .home-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin:0 0 18px;
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--navy);
+      color:#fff;
+      font-size:.92rem;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .home-link:hover { background:#1c4963; }
+    .intro {
+      background:#fff;
+      border:1px solid var(--line);
+      border-left:5px solid var(--green);
+      padding:18px 16px;
+      margin-bottom:18px;
+    }
+    .intro h2 { margin:0 0 8px; font-size:1.1rem; }
+    .intro p { margin:0 0 9px; }
+    .intro p:last-child { margin-bottom:0; }
+    nav {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:0 0 18px;
+    }
+    nav a {
+      flex:1 1 calc(50% - 8px);
+      min-width:120px;
+      background:#e1ebe9;
+      padding:8px 12px;
+      border-radius:20px;
+      font-size:.87rem;
+      font-weight:650;
+      text-decoration:none;
+      text-align:center;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    article {
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+      background:#fff;
+      border:1px solid var(--line);
+      border-top:4px solid var(--green);
+      border-radius:5px;
+      padding:18px;
+      box-shadow:0 3px 14px #172c390c;
+    }
+    .tag {
+      margin:0 0 9px;
+      color:var(--green);
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    h2 {
+      margin:0 0 12px;
+      font:700 clamp(1.35rem,4vw,1.7rem)/1.25 Georgia,serif;
+    }
+    .summary {
+      margin:0;
+      padding:12px 14px;
+      background:#f2f6f4;
+      border-radius:4px;
+    }
+    .label { color:var(--navy); font-weight:750; }
+    dl { margin:13px 0; }
+    dt { font-weight:800; color:var(--navy); margin-top:12px; }
+    dd { margin:2px 0 0; color:var(--muted); }
+    .cue {
+      margin:auto 0 12px;
+      padding:12px 14px;
+      background:#fff1e3;
+      border-left:3px solid var(--saffron);
+    }
+    .source { margin:0; font-size:.85rem; overflow-wrap:anywhere; }
+    .explore { margin:0 0 10px; font-size:.85rem; color:var(--muted); }
+    .explore strong { color:var(--navy); }
+    .chip {
+      display:inline-block;
+      margin:4px 6px 0 0;
+      padding:3px 10px;
+      background:#eef3f1;
+      border:1px solid var(--line);
+      border-radius:999px;
+      font-size:.78rem;
+      font-weight:650;
+      color:var(--green);
+    }
+    .revision {
+      margin-top:26px;
+      background:var(--navy);
+      color:#fff;
+      padding:20px 18px;
+      border-radius:5px;
+    }
+    .revision h2 { margin-bottom:9px; }
+    .revision ol { margin:0; padding-left:23px; }
+    .revision li { margin:5px 0; }
+    footer {
+      border-top:1px solid var(--line);
+      padding:18px 0 28px;
+      color:var(--muted);
+      font-size:.85rem;
+    }
+    @media (min-width: 760px) {
+      .wrap { width:min(1100px,calc(100% - 36px)); }
+      header { padding:45px 0 40px; }
+      .grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      article { padding:22px; }
+      .intro { padding:20px 24px; }
+      .revision { padding:24px; }
+      nav a { flex:0 0 auto; }
+    }
+    @media print {
+      body { background:#fff; }
+      header { padding:15px 0; }
+      article,.intro,.revision { break-inside:avoid; box-shadow:none; }
+      nav { display:none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Daily intelligence brief · Sunday, 3 October 2026 · India time</p>
+      <h1>The news, framed for SSB</h1>
+      <p>India • Defence • Geopolitics • International affairs • Politics • Economy • Sports.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <a class="home-link" href="../index.html" aria-label="Go to homepage">Home</a>
+
+    <section class="intro" aria-labelledby="method">
+      <h2 id="method">How to speak</h2>
+      <p>Use <strong>fact → stakeholders → why it matters → trade-off → practical conclusion</strong>. Distinguish a reported allegation from a finding; do not confuse an announced proposal with a completed outcome. Aim for a calm 30-45-second answer, not a memorised editorial.</p>
+    </section>
+
+    <nav aria-label="Jump to topics">
+      <a href="#navy-warships">Defence</a><a href="#drdo-industrial">Indigenisation</a><a href="#rbi-cyber">Economy</a><a href="#committee-reshuffle">Politics</a><a href="#leprosy-risk">Health</a><a href="#green-mission">Environment</a><a href="#trade-ties">Trade</a><a href="#asian-games">Sports</a>
+    </nav>
+
+    <section class="grid" aria-label="Today's major headlines">
+      <article id="navy-warships">
+        <p class="tag">01 / India · Defence</p>
+        <h2>Indian Navy set to induct 18 warships in 2026, marking a major force-expansion push</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> India’s naval modernisation plans continued to gather pace as the Navy prepared for a record year of ship induction, underlining the strategic priority of Maritime Security and force projection. The expansion was not a symbolic headline alone; it represented a larger build-up of readiness, offshore surveillance and deterrence capacity.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, reports highlighted that the Indian Navy aimed to induct 18 warships in 2026, the largest single-year expansion in recent years. The move reflects a broader push to modernise its fleet, improve surveillance at sea and improve readiness across conventional and coastal security roles.</dd>
+          <dt>Why it matters</dt>
+          <dd>Naval force expansion directly shapes India’s ability to secure sea lanes, respond to regional threats and sustain blue-water operations. With growing concern around Indo-Pacific security, fleet scale and operational readiness matter as much as platform quality.</dd>
+          <dt>India's stance</dt>
+          <dd>India has consistently framed maritime strength as essential to strategic autonomy, trade security and regional stability. For New Delhi, the issue is not just an expansion of military hardware but the ability to protect Indian interests across the Arabian Sea, Bay of Bengal and the wider Indo-Pacific.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Defence planners support the build-up as necessary for deterrence and maritime vigilance, while critics warn that procurement delays, crew training and sustained maintenance capacity can undermine even a large fleet plan. In practice, the real question is whether the ships are inducted faster than the supporting ecosystem can absorb them.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “A navy is not judged only by the number of ships; it is judged by whether those ships can sustain surveillance, deterrence and crisis response under pressure.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Maritime security</span> <span class="chip">Fleet expansion</span> <span class="chip">Indo-Pacific</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1p4Sy1HcXUxWWpLVHh5aVFqMkdnaGZTUGF3bXlqSFE2U1BzSV9JX1J0cFZHbGszYnNENjNOBg?oc=5">News On AIR, 3 Oct</a>; <a href="https://www.newsonair.gov.in/">News On AIR</a>.</p>
+      </article>
+
+      <article id="drdo-industrial">
+        <p class="tag">02 / India · Defence & indigenisation</p>
+        <h2>DRDO-industry synergy expands as a key indigenous engine programme and licensing model move ahead</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> India’s defence modernisation remained firmly tied to domestic production and licensing models, with DRDO and industry forums stressing faster pathways from research to deployment. The story mattered because it showed how strategic oversight and private manufacturing are being aligned to reduce import dependence without compromising quality or timelines.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, DRDO-linked industry forums and official communications highlighted a renewed push for indigenous development, software-sharing arrangements and stronger industrial partnerships. The focus included a turbo-jet engine programme, improved licensing models and greater MSME participation in the defence supply chain.</dd>
+          <dt>Why it matters</dt>
+          <dd>India’s defence ecosystem can only become sustainable if design, testing and manufacturing operate as one chain rather than separate silos. The emphasis on indigenisation matters because it directly affects cost, strategic autonomy, and the speed at which new systems can be deployed.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s official line is that domestic production strengthens security, reduces strategic dependence and builds national industrial capacity. This approach is rooted in the belief that the country must manufacture critical defence capability at home, especially for systems with long strategic lead times.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Supporters say the model improves readiness and industrial depth, while critics argue the same system often encounters delays, standards issues and uneven private-sector capability. The real policy challenge is to scale from pilot projects to a reliable, repeatable production ecosystem.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “Indigenisation is not a slogan; it is a production strategy that decides whether a country can defend itself without being boxed in by imported dependencies.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">DRDO</span> <span class="chip">Atmanirbharta</span> <span class="chip">Defence manufacturing</span></p>
+        <p class="source">Source(s): <a href="https://www.pib.gov.in/">PIB, 3 Oct</a>; <a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPR1J1c05OXzhRbU8xbF9zUThPamNWNmY5UjlkNno5Q0xvUmhYRkpUWTcyWU5oNXpiZDlJd0NPaDVsc2ljSVBjcmtNdGduT1kyNE1wVUt0Mmh4dkJyWlg4TENsSTZhZzI2emF6WEhXRVJuY2FqUVhCM2lEWkt2ekhrZGZSa1g0UUg1UFdLVWxFZDJWNzVYV2RZOFBNczJ2WXVjOGZGNE1wM3lQM2gxZmRrMHFEcGZJck9JRDhTTEZEai1pbE5VWVhsTHhjbXRLdw?oc=5">Google News, 3 Oct</a>.</p>
+      </article>
+
+      <article id="rbi-cyber">
+        <p class="tag">03 / India · Economy</p>
+        <h2>RBI warns that cyber and technology failure could be the trigger for the next financial crisis</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The Reserve Bank of India raised fresh concern over digital fragility in the financial system, indicating that technology failure and cyber disruption were now among the biggest systemic risks. The warning mattered because financial stability depends not only on credit quality and inflation control but on resilience against systemic operational shocks.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, RBI commentary and policy analysis warned that the next financial crisis could begin with a cyberattack, technology outage or structural digital failure rather than conventional credit stress. The discussion linked financial stability to infrastructure resilience, data security and governance around private-sector financial services.</dd>
+          <dt>Why it matters</dt>
+          <dd>As the economy digitalises, the financial system becomes more vulnerable to concentrated failures. A single technology outage can trigger liquidity panic, credit freeze and confidence loss in ways that traditional balance-sheet weakness may not reveal immediately.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s policy position is to keep financial institutions innovative but tightly supervised, especially when digital public infrastructure expands rapidly. The country’s interest is to protect digital trust without slowing legitimate financial inclusion or internet-era payment expansion.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Regulators argue that system-wide resilience must be built in from the start, while private financial players emphasise affordability, innovation and the practical cost of stronger controls. The trade-off is between faster financial inclusion and greater cyber exposure.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “The next crisis may not begin in a bank branch; it may begin in a server room, a payment switch, or a digital trust failure.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">RBI</span> <span class="chip">Cyber risk</span> <span class="chip">Financial stability</span></p>
+        <p class="source">Source(s): <a href="https://www.rbi.org.in/">RBI, 3 Oct</a>; <a href="https://www.hindustantimes.com/india-news">Hindustan Times, 3 Oct</a>.</p>
+      </article>
+
+      <article id="committee-reshuffle">
+        <p class="tag">04 / India · Politics and institutions</p>
+        <h2>Parliamentary committee reshuffle deepens political contest over control, accountability and committee power</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The reconstitution of parliamentary standing committees remained a major political flashpoint as parties fought over chairmanships and procedural leverage. The issue mattered because committees are not just administrative layers—they are the machinery through which oversight, accountability and legislative scrutiny are actually exercised.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, reports highlighted the reallocation of parliamentary committee chairmanships and the political contest around committee control. The basic issue was whether the balance of power within Parliament reflected party strength or whether procedural fairness was being shaped by partisan calculations.</dd>
+          <dt>Why it matters</dt>
+          <dd>Committee chairmanships shape oversight over major ministries, reforms, and public accountability. Even when the headlines are about procedural politics, the underlying question is who shapes scrutiny over government action and how strong that scrutiny will be.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s democratic system relies on Parliament to check the executive, and committee control is central to that function. The national interest lies in making oversight effective rather than allowing procedural bargaining to hollow out legislative accountability.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Parties in government argue that committee allocation follows the logic of parliamentary strength and institutional management, while opposition parties claim the process undermines fairness and weakens oversight. The debate revolves around whether Parliament is being managed as a governing tool or as a democratic check.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “A government may command the floor, but the real test is whether Parliament can still hold power to account through committees and scrutiny.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Parliament</span> <span class="chip">Oversight</span> <span class="chip">Committees</span></p>
+        <p class="source">Source(s): <a href="https://www.thehindu.com/">The Hindu, 3 Oct</a>; <a href="https://www.theindianexpress.com/">The Indian Express, 3 Oct</a>.</p>
+      </article>
+
+      <article id="leprosy-risk">
+        <p class="tag">05 / India · Public health</p>
+        <h2>Child leprosy in India raises doubts over whether the 2027 elimination goal can still be met</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The persistence of child leprosy cases raised new concern about the pace of India’s elimination strategy and whether the country could meet its 2027 target without stronger community screening and faster treatment follow-up. The story mattered because it exposed the gap between public narrative and the on-ground realities of disease detection.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, analysis and public-health reporting underscored that child leprosy remained a significant concern in India despite repeated claims of progress toward elimination. The critique centred on the risk that under-diagnosis and uneven community targeting could keep transmission alive in vulnerable districts.</dd>
+          <dt>Why it matters</dt>
+          <dd>Leprosy is preventable and treatable, but untreated or late-detected cases can create long-term social and health burdens. The issue matters because disease-control success depends on early detection, especially among children, where the human cost of delay is highest.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s public-health policy has emphasised elimination, but the challenge is that disease burden is not only a statistical target; it is a lived reality shaped by access, stigma and local healthcare quality. The national interest is to make sure elimination does not become a political milestone while transmission continues in vulnerable communities.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Health experts argue that stronger community screening and district-level accountability are essential, while administrators stress that progress is real but uneven across regions. The disagreement is less about whether the disease is serious and more about how fast the system can close the detection gap.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “Elimination targets are meaningful only when they are backed by real detection on the ground, especially in communities that are hard to reach.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Leprosy</span> <span class="chip">Public health</span> <span class="chip">Disease elimination</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBnN0ttTWttVl8zRVpMU3FxRkt4dVNZM2JjLXZSMU5Tcy0xUk5kTXJVZnp4WndBNEZmODRSa1dQQXBwc0RDZUxFYzUyc1hyMjZpdWxJak0yeTJnN0tGRDdOeklMTVRheDZOZHN1MElGYkpVS1NC?oc=5">Vajiram &amp; Ravi, 3 Oct</a>; <a href="https://vajiramandravi.com/">Vajiram &amp; Ravi</a>.</p>
+      </article>
+
+      <article id="green-mission">
+        <p class="tag">06 / India · Environment & governance</p>
+        <h2>CAG findings expose weak execution of India’s green restoration mission, raising questions over climate programme delivery</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> A CAG review of India’s green restoration programme highlighted large execution gaps, including sapling survival failures and uneven implementation in climate-sensitive areas. The findings mattered because they exposed a core governance challenge: high-priority climate plans often fail without local accountability, maintenance budgets and realistic project design.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, a CAG review and related reporting flagged serious underperformance in the Green India Mission, with poor sapling survival and weak implementation in several project areas. The issue was not just environmental but governance-related: the programmes had ambitious targets, but the delivery chain to maintain and protect restored ecosystems remained weak.</dd>
+          <dt>Why it matters</dt>
+          <dd>Climate adaptation and nature restoration are only as effective as their execution on the ground. If restoration programmes cannot survive beyond initial planting, then climate resilience claims are not matched by real ecological or social outcomes.</dd>
+          <dt>India's stance</dt>
+          <dd>India has positioned itself as a climate-sensitive country that must balance growth with ecological restoration. The strategic value is not just in planting trees, but in building resilient ecosystems that support watersheds, livelihoods and climate adaptation in a large and diverse country.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Environmental officials emphasise the need for better design and accountability, while critics argue the programme suffered from poor planning, underfunding and weak maintenance. The core issue is whether national climate goals are backed by district-level operational capacity.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “A climate programme is only as credible as the survival rate of what it plants, protects and sustains.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Climate policy</span> <span class="chip">Afforestation</span> <span class="chip">Governance</span></p>
+        <p class="source">Source(s): <a href="https://indianexpress.com/">The Indian Express, 3 Oct</a>; <a href="https://www.cag.gov.in/">CAG, 3 Oct</a>.</p>
+      </article>
+
+      <article id="trade-ties">
+        <p class="tag">07 / India · Trade and strategic policy</p>
+        <h2>India pushes a more resilient trade strategy to counter tariffs and sanctions in a fragmented global market</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> India’s trade policy remained focused on strengthening strategic partnerships and diversifying market access as global tariffs and sanctions created new pressure on exporters and supply chains. The story mattered because it showed how India was attempting to use diplomatic and commercial leverage to maintain growth without exposing itself too heavily to single-country dependencies.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, policy discussions underlined India’s move toward more strategic trade ties and a stronger response to tariffs and sanctions, particularly in sectors where supply chains are vulnerable. The emphasis was on diversification, market access and building resilience rather than simply relying on a single export destination or import source.</dd>
+          <dt>Why it matters</dt>
+          <dd>Fragmented trade rules and geopolitical pressure can hit India’s manufacturing, agriculture and digital sectors differently, but the common effect is higher uncertainty. That matters because external volatility directly feeds into inflation, industrial competitiveness and strategic autonomy.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s official pitch is to balance openness with strategic resilience, using market diversification and trade diplomacy to protect growth. The strategic interest is clear: integrate more deeply with global commerce without becoming overdependent on uncertain supply routes or politically sensitive markets.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Trade optimists see strategic partnerships as a way to lower risk and expand export margins, while critics argue that too much reliance on diplomacy can still leave firms exposed to sudden policy shocks. The central tension is between efficiency and resilience in a world shaped by protectionism and sanctions.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “Trade policy is no longer simply about exports; it is about resilience, diversification and the ability to withstand external shocks.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Trade policy</span> <span class="chip">Sanctions</span> <span class="chip">Supply chains</span></p>
+        <p class="source">Source(s): <a href="https://www.businesstoday.in/">Business Today, 3 Oct</a>; <a href="https://commerce.gov.in/">Ministry of Commerce, 3 Oct</a>.</p>
+      </article>
+
+      <article id="asian-games">
+        <p class="tag">08 / India · Sports</p>
+        <h2>India’s cricket team claims Asian Games gold again as the country’s sporting system turns to results and depth</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Indian sport continued to show momentum as the men’s team secured a major regional title, reinforcing the idea that Indian sport is moving from talent to sustained competitive depth. The result carried significance not only for medals, but for the country’s larger sports ecosystem and its ability to perform under pressure.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, Indian cricket and multi-sport units made strong moves in the continental competition cycle, with the team’s title win underscoring the depth of the sport ecosystem and the value of tactical preparation. The broader narrative was that Indian sport was no longer depending on a few star names alone but on a stronger pipeline of under-pressured performers.</dd>
+          <dt>Why it matters</dt>
+          <dd>Sports results matter because they shape national confidence and soft power, but they also reveal whether the system is building sustainably. A title in a high-pressure continental contest suggests better coaching, better preparation and a deeper bench.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s sports policy places increasing importance on high-performance infrastructure, athlete support and a stronger grassroots path. The goal is not just a single medal but a broad system that can produce regular results across disciplines.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Supporters argue the result reflects serious investment and greater discipline, while skeptics say performance remains uneven across sports and the system still needs deeper state-level accountability. The debate is about turning talent into sustainable national performance, not just occasional success.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “Modern sport is not just about star power; it is about whether a system can consistently convert preparation into results under pressure.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Cricket</span> <span class="chip">Asian Games</span> <span class="chip">Sports pipeline</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlBWSDdEbDcyaDlQb3JzN2VaYlBTWDg3NHdrcFI1dmswRjZYcWk3T21uT0o3LWhwOVNUUFJvWWF5MGpiX0R3X0xNTEFlYVc0cEluOTFkQnpTZjVUNnNsS1pqT2VWN3o4VUR6RjMxNFRzT2FxSGtVM2NDbThuaFdrT1plMFp3NDhKVmlZbmktaWU2aFZ6dG1ReHJB?oc=5">Olympics.com, 3 Oct</a>; <a href="https://www.cricinfo.com/">Cricinfo, 3 Oct</a>.</p>
+      </article>
+
+      <article id="haryana-dialogue">
+        <p class="tag">09 / India · Politics</p>
+        <h2>PM Modi’s meeting with Haryana BJP MLAs signals continued effort to consolidate state-level political alignment</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Prime Minister Narendra Modi’s meeting with Haryana BJP legislators was framed as a “meaningful dialogue” but also signalled the continuing importance of internal party coordination and political messaging at the state level. The story mattered because it reflected how national leadership manages political alignment before bigger state and national political pressures build.</p>
+        <dl>
+          <dt>What happened?</dt>
+          <dd>On 3 October, Modi held a meeting with Haryana BJP MLAs, described by officials as a constructive discussion on party coordination and governance priorities. The meeting underlined that internal state political management remains important even in periods when the wider national narrative is framed in terms of governance and national strategy.</dd>
+          <dt>Why it matters</dt>
+          <dd>Political management at the state level shapes implementation of policy, public messaging and election performance. For India, this matters because state-level political discipline often determines whether national programmes are translated into ground-level outcomes or become stalled by local factionalism.</dd>
+          <dt>India's stance</dt>
+          <dd>India’s political system treats state alignment as essential to national governance, particularly when parties seek to build a consistent political narrative. The significance here is about coordination, not necessarily ideological change, since the basic objective is to maintain delivery and political coherence.</dd>
+          <dt>Competing viewpoints</dt>
+          <dd>Supporters describe such meetings as routine political engagement and governance coordination, while critics view them as part of a broader effort to mobilise political loyalty and manage internal dissent. The broader question is whether state-level meetings are purely administrative or part of longer-term political positioning.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “State-level political meetings often tell you more about governance discipline than any single headline, because implementation depends on alignment behind the scenes.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">BJP</span> <span class="chip">State politics</span> <span class="chip">Governance</span></p>
+        <p class="source">Source(s): <a href="https://www.ndtv.com/">NDTV, 3 Oct</a>; <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ0NQeFM2bXIxd3dJNkxuVVVjTUJfdkVQUm8wUXQyVGhlMDdfQ01NaGtXSkowZEV6ZnZjbTgxYWRTZllFUC1CQWVVU2VQc1VKNzE2M3NKbnEtenNuZTQ0QnBpeVJUcy1lMkZkT2s0X0VDRWcxZTNJWUMzbmNUc1p1TnhBZVNzLWpyX1pqMnlOUG1qTkNSZUHSAZ4BQVVfeXFMTmlpSE14cjYzY3lDWEl1TTV0VnFJV2NDNkM0X09aNmtZc29wMXBQTnRxdnAzVUkyQXpWNTU5anpVWUdENDJXdWczcV9KX2o0ZEd4djhrdXFiTmY0Tks0R1JSVVkweGk5VHd1M0gtRmx4Z3I3b2pjSnVtWVBwNVZzdDNiOGFBLWxYS0hZSm95b3dJSDJTUnNVSnBxeXhQc3c?oc=5">Google News, 3 Oct</a>.</p>
+      </article>
+    </section>
+
+    <section class="revision" aria-labelledby="revision-title">
+      <h2 id="revision-title">60-second revision: three useful connections</h2>
+      <ol>
+        <li><strong>Compared with 2 October 2026:</strong> The sharpest advance since the previous brief was a clearer convergence between strategic capability and systemic resilience: navy induction plans, DRDO-industry programmes, and RBI cyber warnings all pointed to a security-and-resilience mindset becoming more central to policy priorities.</li>
+        <li><strong>State capacity:</strong> The defence, health, climate and political stories all point to one common theme: executive programmes are only as strong as the delivery system behind them, whether that means ships, district clinics, forest survival or committee oversight.</li>
+        <li><strong>Strategic autonomy:</strong> Whether in defence, trade or digital infrastructure, the recurring narrative remains the same: India is trying to reduce external dependence while preserving growth, public confidence and operational flexibility.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Prepared for SSB Group Discussion, Lecturette and Personal Interview on 3 October 2026. Summaries and viewpoints are original study notes, not reproductions of linked reporting. Follow source updates before quoting figures; political accusations and sabotage attributions remain attributed claims.</div>
+  </footer>
+</body>
+</html>
