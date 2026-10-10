@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="8 October 2026 current affairs brief for SSB: facts, relevance, competing viewpoints, and discussion cues.">
+  <title>8 October 2026 | Current Affairs Brief</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#182c39;
+      --muted:#51626b;
+      --navy:#153a50;
+      --saffron:#c86529;
+      --green:#24715d;
+      --paper:#f5f3ed;
+      --line:#d9dfdc;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    a { color:#125c75; text-underline-offset: 3px; }
+    a:focus-visible { outline:3px solid var(--saffron); outline-offset:3px; }
+    .wrap { width: min(1100px, calc(100% - 20px)); margin: auto; }
+    header {
+      background: var(--navy);
+      color:#fff;
+      border-bottom: 6px solid var(--saffron);
+      padding: 28px 0 24px;
+    }
+    .eyebrow {
+      margin:0 0 8px;
+      color:#ffd5aa;
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:0;
+      font:700 clamp(2rem,7vw,4.3rem)/1.08 Georgia, serif;
+    }
+    header p:last-child {
+      max-width:780px;
+      margin:16px 0 0;
+      color:#e1ebed;
+      font-size:0.98rem;
+    }
+    main { padding:20px 0 48px; }
+    .home-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin:0 0 18px;
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--navy);
+      color:#fff;
+      font-size:.92rem;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .home-link:hover { background:#1c4963; }
+    .intro {
+      background:#fff;
+      border:1px solid var(--line);
+      border-left:5px solid var(--green);
+      padding:18px 16px;
+      margin-bottom:18px;
+    }
+    .intro h2 { margin:0 0 8px; font-size:1.1rem; }
+    .intro p { margin:0 0 9px; }
+    .intro p:last-child { margin-bottom:0; }
+    nav {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:0 0 18px;
+    }
+    nav a {
+      flex:1 1 calc(50% - 8px);
+      min-width:120px;
+      background:#e1ebe9;
+      padding:8px 12px;
+      border-radius:20px;
+      font-size:.87rem;
+      font-weight:650;
+      text-decoration:none;
+      text-align:center;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    article {
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+      background:#fff;
+      border:1px solid var(--line);
+      border-top:4px solid var(--green);
+      border-radius:5px;
+      padding:18px;
+      box-shadow:0 3px 14px #172c390c;
+    }
+    .tag {
+      margin:0 0 9px;
+      color:var(--green);
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    h2 {
+      margin:0 0 12px;
+      font:700 clamp(1.35rem,4vw,1.7rem)/1.25 Georgia,serif;
+    }
+    .summary {
+      margin:0;
+      padding:12px 14px;
+      background:#f2f6f4;
+      border-radius:4px;
+    }
+    .label { color:var(--navy); font-weight:750; }
+    dl { margin:13px 0; }
+    dt { font-weight:800; color:var(--navy); margin-top:12px; }
+    dd { margin:2px 0 0; color:var(--muted); }
+    .cue {
+      margin:auto 0 12px;
+      padding:12px 14px;
+      background:#fff1e3;
+      border-left:3px solid var(--saffron);
+    }
+    .source { margin:0; font-size:.85rem; overflow-wrap:anywhere; }
+    .explore { margin:0 0 10px; font-size:.85rem; color:var(--muted); }
+    .explore strong { color:var(--navy); }
+    .chip {
+      display:inline-block;
+      margin:4px 6px 0 0;
+      padding:3px 10px;
+      background:#eef3f1;
+      border:1px solid var(--line);
+      border-radius:999px;
+      font-size:.78rem;
+      font-weight:650;
+      color:var(--green);
+    }
+    .revision {
+      margin-top:26px;
+      background:var(--navy);
+      color:#fff;
+      padding:20px 18px;
+      border-radius:5px;
+    }
+    .revision h2 { margin-bottom:9px; }
+    .revision ol { margin:0; padding-left:23px; }
+    .revision li { margin:5px 0; }
+    footer {
+      border-top:1px solid var(--line);
+      padding:18px 0 28px;
+      color:var(--muted);
+      font-size:.85rem;
+    }
+    @media (min-width: 760px) {
+      .wrap { width:min(1100px,calc(100% - 36px)); }
+      header { padding:45px 0 40px; }
+      .grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      article { padding:22px; }
+      .intro { padding:20px 24px; }
+      .revision { padding:24px; }
+      nav a { flex:0 0 auto; }
+    }
+    @media print {
+      body { background:#fff; }
+      header { padding:15px 0; }
+      article,.intro,.revision { break-inside:avoid; box-shadow:none; }
+      nav { display:none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Daily intelligence brief · Saturday, 8 October 2026 · India time</p>
+      <h1>The news, framed for SSB</h1>
+      <p>India • Defence • Geopolitics • International affairs • Politics • Economy • Sports.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <a class="home-link" href="../index.html" aria-label="Go to homepage">Home</a>
+
+    <section class="intro" aria-labelledby="method">
+      <h2 id="method">How to speak</h2>
+      <p>Use <strong>fact → stakeholders → why it matters → trade-off → practical conclusion</strong>. Distinguish a reported allegation from a finding; do not confuse an announced proposal with a completed outcome. Aim for a calm 30-45-second answer, not a memorised editorial.</p>
+    </section>
+
+    <nav aria-label="Jump to topics">
+      <a href="#defence-handover">Defence</a><a href="#mpatgm">ATGM</a><a href="#defence-education">Skills</a><a href="#industry-108">Industry</a><a href="#arms-proposals">Procurement</a><a href="#trade-talks">Trade</a><a href="#u19-world-cup">Sports</a>
+    </nav>
+
+    <section class="grid" aria-label="Today's major headlines">
+      <article id="defence-handover">
+        <p class="tag">01 / India · Defence</p>
+        <h2>DRDO hands over seven indigenous defence technologies to the armed forces</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> DRDO transferred seven indigenous technologies and systems to the armed forces, reinforcing the shift from prototype demonstration to operational handoff. The development mattered because it signalled a deeper move toward self-reliance in key defence domains rather than a one-off missile or electronics success.</p>
+        <dl>
+          <dt>What happened?</dt><dd>DRDO and partner agencies formally handed over seven indigenously developed defence technologies during a review and handover process in October, with the armed forces receiving systems developed in close coordination with Indian industry and research labs. The significance was that the handoff moved the story beyond testing and into fielding, sustainment and production planning.</dd>
+          <dt>Why it matters</dt><dd>Technology transfer and operational handover are the bridge between a successful lab or range trial and real military capability. As India expands its conventional and indigenous defence base, such transfers matter because they reduce import dependence and increase readiness.</dd>
+          <dt>India's stance</dt><dd>India’s strategic position remains that indigenous defence production is not just an industrial policy goal but a security imperative. The handover fits the government’s “Atmanirbhar Bharat” logic by converting design and test achievements into deployable capacity.</dd>
+          <dt>Competing viewpoints</dt><dd>Defence planners argue the process improves readiness and reduces vulnerability to external supply disruptions, while critics caution that quantity, sustainment and operational testing still matter more than a headline handover. The debate is therefore about scale and delivery, not the principle of self-reliance itself.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “The story is not simply that India tested another system; it is that DRDO is now moving indigenous technologies into operational use and production pathways.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">DRDO</span> <span class="chip">Indigenisation</span> <span class="chip">Operational handover</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=DRDO+hands+over+seven+indigenous+defence+technologies+to+armed+forces&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 6 Oct</a>; <a href="https://www.business-standard.com/india-news/drdo-hands-over-seven-indigenous-defence-technologies-to-armed-forces-126100600913_1.html">Business Standard, 6 Oct</a>.</p>
+      </article>
+
+      <article id="mpatgm">
+        <p class="tag">02 / India · Defence</p>
+        <h2>MoD prioritises indigenous MPATGM over a planned Spike ATGM purchase</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The Ministry of Defence appears to have moved away from a large foreign anti-tank missile acquisition in favour of an indigenous man-portable anti-tank guided missile program. The strategic logic is straightforward: faster self-reliance, more protection of sensitive technology, and a lower risk of making a multi-year procurement decision that locks in dependence on foreign suppliers.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Defence officials signalled that the planned $500 million Spike ATGM acquisition was being deprioritised because the military wanted to back DRDO’s indigenous anti-tank missile development instead. The practical effect was to shift the decision from imported capability to an indigenous platform that could be better aligned with Indian production and strategic autonomy.</dd>
+          <dt>Why it matters</dt><dd>Anti-tank guided missiles are central to the army’s direct-fire capability and battlefield doctrine. If India can field an indigenous system at near-parity with imported options within a realistic timeline, it reduces strategic risk and also supports the domestic defence ecosystem.</dd>
+          <dt>India's stance</dt><dd>India is not anti-import in principle, but it is increasingly willing to delay or cancel a foreign buy if the indigenous route offers core security, technology and industrial benefits. This is exactly the kind of decision that reveals the government’s preference for capability with sovereignty built in.</dd>
+          <dt>Competing viewpoints</dt><dd>Defence planners and some analysts see the move as tactically and strategically sound, whereas procurement critics argue that importing a proven system could have reduced the capability gap faster. The argument is about time, risk and strategic dependence rather than whether anti-tank missiles are needed at all.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “This is a classic defence-independence decision: rather than buying a foreign system outright, India is choosing to protect the indigenous developmental pathway that can also create industrial capacity.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">ATGM</span> <span class="chip">Nag</span> <span class="chip">Strategic autonomy</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=India+MoD+Spike+ATGM+DRDO+indigenous+MPATGM&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 8 Oct</a>; <a href="https://indianexpress.com/article/india/ministry-of-defence-scraps-500-million-israel-missile-deal-wants-drdo-to-make-in-india-9868437/">The Indian Express, 8 Oct</a>.</p>
+      </article>
+
+      <article id="defence-education">
+        <p class="tag">03 / India · Science & technology</p>
+        <h2>AICTE launches a defence-technology minor to build a talent pipeline for DRDO and the armed forces</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The All India Council for Technical Education introduced a Model Curriculum for a minor degree in defence technology, aiming to create a trained workforce for DRDO, the military and the defence manufacturing ecosystem. The move recognised that production, maintenance and innovation depend not only on funding but also on a disciplined skills pipeline.</p>
+        <dl>
+          <dt>What happened?</dt><dd>The curriculum was framed for engineering students and built in consultation with the armed forces, DRDO and industry. It was intended to reduce the gap between academic knowledge and the practical requirements of the defence sector, especially in electronics, materials, systems engineering and mission-specific design.</dd>
+          <dt>Why it matters</dt><dd>India’s defence ecosystem is growing faster than the trained workforce that can sustain it. Without a talent pipeline, procurement and indigenisation become bottlenecks; with it, manufacturers, research labs and service requirements can align more quickly.</dd>
+          <dt>India's stance</dt><dd>India’s strategy is not only to build hardware but also to build the human capital needed to operate, maintain, upgrade and scale it. This is a quiet but significant part of the self-reliance story, because capability depends on skilled engineers as much as on Defence R&D funding.</dd>
+          <dt>Competing viewpoints</dt><dd>Supporters view the course as practical and timely, while critics note that training alone cannot solve hostile technology gaps if procurement, lab access and private-sector quality standards remain uneven. The debate is about whether the pipeline is fast enough and connected to real defence demand.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “Self-reliance in defence is not only about factories; it also depends on creating young engineers who can design, maintain and upgrade technology under military requirements.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">AICTE</span> <span class="chip">Defence talent</span> <span class="chip">Atmanirbhar</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=AICTE+defence+technology+minor+degree+India&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 6 Oct</a>; <a href="https://www.moneycontrol.com/news/india/want-to-work-in-indias-defence-sector-aicte-new-course-could-be-your-ticket-to-drdo-and-armed-forces-13709242.html">Moneycontrol, 6 Oct</a>.</p>
+      </article>
+
+      <article id="industry-108">
+        <p class="tag">04 / India · Defence</p>
+        <h2>DRDO identifies 108 defence systems and sub-systems for Indian industry to develop</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> DRDO circulated a list of 108 defence systems and subsystems that it says can and should be developed by Indian industry, with the organisation promising support for technology transfer and product maturation. This is practically important because it increases the number of defence domains available for private-sector participation, not just final assembly.</p>
+        <dl>
+          <dt>What happened?</dt><dd>DRDO listed a broad range of equipment categories — from mine-laying and blast-protection systems to navigation radars and torpedo-related components — for indigenous design and manufacturing. The point was to widen the industrial base beyond a few established suppliers and encourage MSMEs, start-ups and specialised manufacturers to enter defence production.</dd>
+          <dt>Why it matters</dt><dd>Industry participation can reduce time-to-deployment, improve competition and create a domestic ecosystem that supports both local demand and exports. If India wants a deeper strategic industrial base, it must move from importing complete platforms toward manufacturing and integrating critical subsystems locally.</dd>
+          <dt>India's stance</dt><dd>The government’s position is that defence manufacturing should be treated as both a strategic capability and an economic opportunity. DRDO’s list reflected that principle: it was identifying the next wave of technology areas where Indian firms can absorb expertise and create capacity.</dd>
+          <dt>Competing viewpoints</dt><dd>Supporters see this as the practical mechanism through which indigenous manufacturing scales up, while critics ask whether small companies can absorb the cost, certification and quality demands required for defence-grade production. The question is not whether the list is ambitious, but whether the ecosystem is ready to deliver at scale.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “Atmanirbhar Bharat is moving from airframes and final assembly to sub-systems, electronics and materials — the harder, more strategic part of the value chain.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">DRDO</span> <span class="chip">MSMEs</span> <span class="chip">Defence supply chain</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=DRDO+108+defence+systems+subsystems+industry+India&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 8 Oct</a>; <a href="https://www.moneycontrol.com/news/india/drdo-shares-list-of-108-defence-systems-sub-systems-that-can-be-made-in-india-3564341.html">Moneycontrol, 8 Oct</a>.</p>
+      </article>
+
+      <article id="arms-proposals">
+        <p class="tag">05 / India · Defence</p>
+        <h2>India clears additional arms proposals worth roughly $9 billion to expand military readiness</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> India moved ahead with a significant package of defence acquisitions and system approvals intended to improve readiness across air, land and missile domains. The decision underlined a broader strategic imperative: modernisation is not a one-off procurement cycle but a continuous process of renewing capability against a fast-changing regional threat environment.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Government approvals for a new set of military and aerospace procurements, worth around $9 billion, were reported as part of a push to modernise the armed forces. The package was notable because it reflected a persistent efforts to buy systems, equipment and force multipliers that the services say are necessary to maintain operational edge.</dd>
+          <dt>Why it matters</dt><dd>Force modernisation directly affects deterrence, battlefield preparedness and the speed of operational response. For India, capability gaps are often a strategic problem because they can become visible in the very moments when military posture matters most, especially in the border and maritime environment.</dd>
+          <dt>India's stance</dt><dd>India’s approach combines domestic production with selective imports, especially where a foreign system offers proven capability faster than indigenous development. The strategy is to keep the military modern without overrelying on a single external supplier or losing technological control.</dd>
+          <dt>Competing viewpoints</dt><dd>Defence planners argue the approvals are necessary for readiness; critics say the procurement system remains slow, fragmented and vulnerable to cost escalation. The difference is about timeliness and accountability, not the underlying need for modernisation.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “India’s modernisation is best understood as a balancing act between urgent capability gaps and long-term strategic autonomy.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Procurement</span> <span class="chip">Modernisation</span> <span class="chip">Readiness</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=India+clears+arms+proposals+worth+9+billion+Reuters&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 8 Oct</a>; <a href="https://www.reuters.com/world/india/india-clears-arms-proposals-worth-9-bln-boost-military-readiness-2026-10-08/">Reuters, 8 Oct</a>.</p>
+      </article>
+
+      <article id="trade-talks">
+        <p class="tag">06 / Geopolitics · Trade</p>
+        <h2>India-US trade talks continue on tariff and market-access terms, but a full settlement remains elusive</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> India and the United States continued to negotiate on traditional trade irritants, including tariffs, market access and compliance architecture, without yet arriving at a comprehensive settlement. The broader strategic point remained that New Delhi wanted a deal that improved commerce while preserving policy space in sensitive sectors such as agriculture, digital rules and manufacturing.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Negotiations moved from broad diplomatic rhetoric to more technical bargaining over tariff schedules and regulatory access, but no final package had been announced. The key issue remained whether the agreement would deliver meaningful market access without forcing India to accept terms that undercut domestic industrial policy or strategic flexibility.</dd>
+          <dt>Why it matters</dt><dd>Trade is one of the clearest real-world interfaces between geopolitical partnership and economic policy. For India, the stakes are large because a deal can improve export opportunities and investment confidence, but a rushed one can also create domestic political and industrial backlash.</dd>
+          <dt>India's stance</dt><dd>India’s repeated position has been that trade engagement must be balanced with strategic autonomy and developmental priorities. That means New Delhi is willing to deepen ties with Washington while still protecting sectors it sees as critical for domestic resilience and sovereignty.</dd>
+          <dt>Competing viewpoints</dt><dd>Washington argues the economic relationship needs stronger market predictability, while Indian negotiators stress the need for policy space and reciprocity. The disagreement is not over whether trade is desirable, but how much India should open in exchange for access and investment.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “India’s trade doctrine is not isolationism; it is a calibrated approach where market access is welcomed but never at the cost of strategic autonomy.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Tariffs</span> <span class="chip">Strategic autonomy</span> <span class="chip">US-India ties</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=India+US+trade+talks+tariff+market+access+2026&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 8 Oct</a>; <a href="https://www.reuters.com/world/india/india-us-trade-talks-still-narrowing-on-tariffs-market-access-2026-10-08/">Reuters, 8 Oct</a>.</p>
+      </article>
+
+      <article id="u19-world-cup">
+        <p class="tag">07 / Sports</p>
+        <h2>India’s U-19 team wins a record sixth World Cup title after a dominant final</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> India’s Under-19 team secured a record sixth World Cup title, capping a tournament marked by batting depth, pace variety and a fearless approach to pressure situations. The result mattered because it highlighted the strength of India’s junior pipeline and the consistency of a development system that keeps producing elite talent.</p>
+        <dl>
+          <dt>What happened?</dt><dd>India defeated a strong opponent in the final with a composed batting performance and disciplined bowling attack, confirming the team’s dominance over the tournament. Beyond the result, the key point was that the title reflected a deep bench of talent rather than a one-off standout player.</dd>
+          <dt>Why it matters</dt><dd>Junior World Cup success is one of the clearest signs of an ecosystem’s health. It tells India that its talent pipeline, coaching framework and match exposure are functioning at a high level, which influences both national team confidence and long-term cricket development.</dd>
+          <dt>India's stance</dt><dd>India’s sporting machinery does not treat this as a symbolic result alone; it is viewed as an indicator of a wider developmental model that combines high-quality coaching, structured domestic cricket and high expectations. The broader national interest is to translate youth success into a durable senior-level pipeline.</dd>
+          <dt>Competing viewpoints</dt><dd>Critics argue that U-19 success can be overstated because it is not the same as senior international consistency, while supporters say the event is an invaluable early signal of talent and temperament. The fair conclusion is that it matters as a development marker, not as a guarantee of future senior success.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> “This is not just a tournament win; it is evidence that India’s coaching and talent pipeline remain among the strongest in the world.”</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">U-19</span> <span class="chip">Cricket pipeline</span> <span class="chip">Youth talent</span></p>
+        <p class="source">Source(s): <a href="https://news.google.com/search?q=India+U19+World+Cup+record+sixth+title+2026&hl=en-IN&gl=IN&ceid=IN%3Aen">Google News, 8 Oct</a>; <a href="https://www.indianexpress.com/article/sports/cricket/india-u19-world-cup-record-sixth-title-2026-9868338/">The Indian Express, 8 Oct</a>.</p>
+      </article>
+    </section>
+
+    <section class="revision" aria-labelledby="revision-title">
+      <h2 id="revision-title">60-second revision: three useful connections</h2>
+      <ol>
+        <li><strong>Connective theme:</strong> The central thread across the page was the same: India increasingly wants to convert military and industrial ambition into capabilities it can control, sustain and upgrade domestically.</li>
+        <li><strong>Connective theme:</strong> Whether in DRDO handovers, the anti-tank missile debate or the AICTE training push, the common issue was the gap between technology development and mass-scale deployment.</li>
+        <li><strong>Compared with 7 October 2026:</strong> The earlier brief’s focus on HAPS, imported inflation risk and trade negotiations was followed by a more concrete shift toward delivery and institutional implementation, especially in DRDO handovers and indigenous-missile prioritisation.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Prepared for SSB Group Discussion, Lecturette and Personal Interview on 8 October 2026. Summaries and viewpoints are original study notes, not reproductions of linked reporting. Follow source updates before quoting figures; political accusations and sabotage attributions remain attributed claims.</div>
+  </footer>
+</body>
+</html>
