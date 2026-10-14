@@ -70,6 +70,8 @@ Read `templates/daily-brief-template.html` and replace these placeholders (do no
 
 The template already includes the `.home-link` element pointing back to `../index.html` — leave it as is.
 
+The template's `<head>` also links `../assets/theme.css` and `../assets/theme.js`, which provide dark mode and the floating toggle button. Keep both tags in every generated page, and do not add page-specific dark-mode CSS or scripts.
+
 ## 5. Save the file
 
 - Filename: `Dates/<dd><full-month-lowercase><yyyy>.html`, e.g. `Dates/24september2026.html`.
