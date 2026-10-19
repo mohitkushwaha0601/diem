@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="18 October 2026 current affairs brief for SSB: facts, relevance, competing viewpoints, and discussion cues.">
+  <title>18 October 2026 | Current Affairs Brief</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#182c39;
+      --muted:#51626b;
+      --navy:#153a50;
+      --saffron:#c86529;
+      --green:#24715d;
+      --paper:#f5f3ed;
+      --line:#d9dfdc;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    a { color:#125c75; text-underline-offset: 3px; }
+    a:focus-visible { outline:3px solid var(--saffron); outline-offset:3px; }
+    .wrap { width: min(1100px, calc(100% - 20px)); margin: auto; }
+    header {
+      background: var(--navy);
+      color:#fff;
+      border-bottom: 6px solid var(--saffron);
+      padding: 28px 0 24px;
+    }
+    .eyebrow {
+      margin:0 0 8px;
+      color:#ffd5aa;
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:0;
+      font:700 clamp(2rem,7vw,4.3rem)/1.08 Georgia, serif;
+    }
+    header p:last-child {
+      max-width:780px;
+      margin:16px 0 0;
+      color:#e1ebed;
+      font-size:0.98rem;
+    }
+    main { padding:20px 0 48px; }
+    .home-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin:0 0 18px;
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--navy);
+      color:#fff;
+      font-size:.92rem;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .home-link:hover { background:#1c4963; }
+    .intro {
+      background:#fff;
+      border:1px solid var(--line);
+      border-left:5px solid var(--green);
+      padding:18px 16px;
+      margin-bottom:18px;
+    }
+    .intro h2 { margin:0 0 8px; font-size:1.1rem; }
+    .intro p { margin:0 0 9px; }
+    .intro p:last-child { margin-bottom:0; }
+    nav {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:0 0 18px;
+    }
+    nav a {
+      flex:1 1 calc(50% - 8px);
+      min-width:120px;
+      background:#e1ebe9;
+      padding:8px 12px;
+      border-radius:20px;
+      font-size:.87rem;
+      font-weight:650;
+      text-decoration:none;
+      text-align:center;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    article {
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+      background:#fff;
+      border:1px solid var(--line);
+      border-top:4px solid var(--green);
+      border-radius:5px;
+      padding:18px;
+      box-shadow:0 3px 14px #172c390c;
+    }
+    .tag {
+      margin:0 0 9px;
+      color:var(--green);
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    h2 {
+      margin:0 0 12px;
+      font:700 clamp(1.35rem,4vw,1.7rem)/1.25 Georgia,serif;
+    }
+    .summary {
+      margin:0;
+      padding:12px 14px;
+      background:#f2f6f4;
+      border-radius:4px;
+    }
+    .label { color:var(--navy); font-weight:750; }
+    dl { margin:13px 0; }
+    dt { font-weight:800; color:var(--navy); margin-top:12px; }
+    dd { margin:2px 0 0; color:var(--muted); }
+    .cue {
+      margin:auto 0 12px;
+      padding:12px 14px;
+      background:#fff1e3;
+      border-left:3px solid var(--saffron);
+    }
+    .source { margin:0; font-size:.85rem; overflow-wrap:anywhere; }
+    .explore { margin:0 0 10px; font-size:.85rem; color:var(--muted); }
+    .explore strong { color:var(--navy); }
+    .chip {
+      display:inline-block;
+      margin:4px 6px 0 0;
+      padding:3px 10px;
+      background:#eef3f1;
+      border:1px solid var(--line);
+      border-radius:999px;
+      font-size:.78rem;
+      font-weight:650;
+      color:var(--green);
+    }
+    .revision {
+      margin-top:26px;
+      background:var(--navy);
+      color:#fff;
+      padding:20px 18px;
+      border-radius:5px;
+    }
+    .revision h2 { margin-bottom:9px; }
+    .revision ol { margin:0; padding-left:23px; }
+    .revision li { margin:5px 0; }
+    footer {
+      border-top:1px solid var(--line);
+      padding:18px 0 28px;
+      color:var(--muted);
+      font-size:.85rem;
+    }
+    @media (min-width: 760px) {
+      .wrap { width:min(1100px,calc(100% - 36px)); }
+      header { padding:45px 0 40px; }
+      .grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      article { padding:22px; }
+      .intro { padding:20px 24px; }
+      .revision { padding:24px; }
+      nav a { flex:0 0 auto; }
+    }
+    @media print {
+      body { background:#fff; }
+      header { padding:15px 0; }
+      article,.intro,.revision { break-inside:avoid; box-shadow:none; }
+      nav { display:none; }
+    }
+  </style>
+  <link rel="stylesheet" href="../assets/theme.css">
+  <script src="../assets/theme.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Daily intelligence brief · Sunday, 18 October 2026 · India time</p>
+      <h1>The news, framed for SSB</h1>
+      <p>India • Defence • Geopolitics • International affairs • Politics • Economy • Sports.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <a class="home-link" href="../index.html" aria-label="Go to homepage">Home</a>
+
+    <section class="intro" aria-labelledby="method">
+      <h2 id="method">How to speak</h2>
+      <p>Use <strong>fact → stakeholders → why it matters → trade-off → practical conclusion</strong>. Distinguish a reported allegation from a finding; do not confuse an announced proposal with a completed outcome. Aim for a calm 30-45-second answer, not a memorised editorial.</p>
+    </section>
+
+    <nav aria-label="Jump to topics">
+      <a href="#hormuz-mines">Hormuz mines</a>
+      <a href="#egypt-saudi">Egypt backs Saudi Arabia</a>
+      <a href="#graham-waiver">Graham Act waiver</a>
+      <a href="#rubio-mumbai">Rubio in Mumbai</a>
+      <a href="#starshield">Starshield &amp; Ukraine</a>
+      <a href="#taiwan-ships">Taiwan vessels</a>
+      <a href="#france-unrest">France unrest</a>
+      <a href="#west-bank-diplomats">West Bank diplomats</a>
+      <a href="#netanyahu-endorsement">Trump backs Netanyahu</a>
+      <a href="#kolkata-stampede">Kolkata stampede</a>
+    </nav>
+
+    <section class="grid" aria-label="Today's major headlines">
+      <article id="hormuz-mines">
+        <p class="tag">01 / Geopolitics · Energy &amp; Shipping</p>
+        <h2>Iran says two crude tankers hit mines in the Strait of Hormuz, and the IRGC calls ships that switch off navigation systems "hostile"</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The IRGC said on 17 October that two tankers, each carrying about two million barrels of crude, caught fire after hitting naval mines in the strait. IRNA says the ships had switched off their positioning and radar and used a route Iran has not authorised. The US runs its own counter-blockade on Iranian oil exports.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Iran's army separately said two tankers caught fire on Thursday and Friday in its "prohibited zone" in the Gulf of Oman. The IRGC claimed one tanker tried to cross "with US support" while the second was left immobilised. Names and cargo origins were not immediately available. Kpler data cited by Al Jazeera show 20.8 million barrels passed through on 8 October but only 2.9 million on 11 October. Tehran requires ships to seek its authorisation before transiting, and an IRGC naval commander has warned that vessels deactivating navigation systems will be considered "hostile". Trump has said he expects a deal to end the war after the 3 November midterms.</dd>
+          <dt>Why it matters</dt><dd>Mines are harder to police than missile attacks, because the threat is hidden until a ship hits one. India sources much of its crude from the Gulf, so higher insurance, longer routes and supply disruption feed directly into fuel prices and inflation.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian government statement on these mine incidents in the sources reviewed.</dd>
+          <dt>Competing viewpoints</dt><dd>Iran presents its authorisation rule as a lawful control of the route and blames ships that use unauthorised paths. The US and its partners see the strait as a free-passage question. The casualty and cargo figures come from the IRGC, IRNA and maritime monitors, and are not independently confirmed.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Chokepoints turn one incident into a price shock; say that India should protect its seafarers, keep strategic reserves and diversify supply routes rather than depend on a single corridor."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Strait of Hormuz</span> <span class="chip">Naval mines</span> <span class="chip">UKMTO</span> <span class="chip">Strategic reserves</span> <span class="chip">Energy security</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz">Al Jazeera, 18 Oct</a>; <a href="https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels">Al Jazeera, 17 Oct</a>.</p>
+      </article>
+
+      <article id="egypt-saudi">
+        <p class="tag">02 / Geopolitics · West Asia &amp; Red Sea</p>
+        <h2>Egypt pledges "all necessary and possible support" to Saudi Arabia as Houthi attacks reach Riyadh's airport and Aramco</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Egypt's National Defence Council, chaired by President Sisi, said on 18 October that Egypt "stands fully with" Saudi Arabia to defend its resources, territorial integrity and holy sites. Sisi had called an emergency parliamentary session to authorise defence assistance. Houthi attacks have hit Riyadh's international airport and the state oil giant Aramco.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Fighting in Yemen reignited after a truce collapsed. Saudi-led forces struck Houthi positions to try to break the siege of Taiz, and Yemen's Presidential Leadership Council chairman, Rashad al-Alimi, welcomed Egypt's offer. The GCC condemned the Houthi attacks on Saudi Arabia. Riyadh accuses Iran of encouraging the Houthis; Tehran denies it. Sisi said Egypt would act on guidance from King Salman and Crown Prince Mohammed bin Salman, who visited Cairo last month. Egypt's stake is direct: Suez Canal revenue depends on the same Red Sea traffic Riyadh wants protected.</dd>
+          <dt>Why it matters</dt><dd>A Saudi-Houthi conflict is becoming a wider Arab defence commitment, and Red Sea shipping and the Suez Canal are now at risk. It links to the Hormuz story (item 01): Gulf energy routes face pressure from two directions at once.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian statement on these developments in the sources reviewed. Inference: India's interest in Gulf security is direct, through energy imports and its diaspora in the region.</dd>
+          <dt>Competing viewpoints</dt><dd>Riyadh and Cairo frame the moves as defence of sovereignty and shipping. Iran denies backing the Houthis. The Houthis, an armed group, face coalition air strikes. Claims about who controls which territory are contested, so treat them carefully.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Regional defence commitments follow energy and shipping as much as borders; say that India should keep channels open with Riyadh, Cairo and Tehran and plan for evacuation and sea-lane safety."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Houthis</span> <span class="chip">Red Sea</span> <span class="chip">Suez Canal</span> <span class="chip">Gulf security</span> <span class="chip">Mutual defence</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/egypt-to-provide-all-necessary-and-possible-support-to-saudi">Al Jazeera, 18 Oct</a>; <a href="https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies">Al Jazeera, 18 Oct (GCC)</a>; <a href="https://www.aljazeera.com/news/2026/10/18/fighting-intensifies-across-yemen-as-humanitarian-crisis-deepens">Al Jazeera, 18 Oct (Yemen)</a>.</p>
+      </article>
+
+      <article id="graham-waiver">
+        <p class="tag">03 / Geopolitics · US, Russia &amp; Sanctions</p>
+        <h2>Trump's executive order waives the new Graham sanctions law on Russia days before its penalties were due; Zelenskyy says it rewards Putin</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Trump signed an executive order on Friday, 16 October, to waive sanctions under the Lindsey O. Graham Sanctioning Russia and Iran Act. The law could impose tariffs of up to 100% on goods from the five largest importers of Russian oil or gas. The waiver came days before the restrictions were due and drew bipartisan criticism.</p>
+        <dl>
+          <dt>What happened?</dt><dd>The White House text describes the order as implementing the Act, with waivers that stay in place until the President or the Secretary of State determines further action, so it is a suspension rather than a repeal. Al Jazeera reports that Trump is trying to ease high oil prices before the 3 November US elections. India had warned Washington that new tariffs could hurt bilateral ties. Zelenskyy said on Saturday that easing pressure on Russia would encourage further attacks, and Democrats and Republicans both criticised the move.</dd>
+          <dt>Why it matters</dt><dd>The law was designed to make Russian energy costly for large buyers, India among them. The waiver lowers the immediate tariff risk for India, but because it can be reversed, long-term energy planning becomes harder.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian government statement on the waiver itself in the sources reviewed.</dd>
+          <dt>Competing viewpoints</dt><dd>The administration's rationale is lower oil prices. Critics in both parties and Kyiv argue it weakens pressure on Moscow. Its effect on Russian revenue depends on how long the waiver lasts, which the reports do not settle.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Sanctions are only as strong as their enforcement; say that India should plan its energy mix for both outcomes, tariffs returning or not, rather than bet on a single US decision."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Graham Act</span> <span class="chip">Secondary tariffs</span> <span class="chip">Executive waiver</span> <span class="chip">Russian oil</span> <span class="chip">US midterms and oil prices</span></p>
+        <p class="source">Sources: <a href="https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026">White House, Oct 2026</a>; <a href="https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law">Al Jazeera, 17 Oct</a>; <a href="https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver">Al Jazeera, 17 Oct (backlash)</a>.</p>
+      </article>
+
+      <article id="rubio-mumbai">
+        <p class="tag">04 / India · US Relations &amp; Trade</p>
+        <h2>Rubio skips New Delhi for Mumbai and Jamnagar, and the opposition says India's foreign minister was "summoned"</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> US Secretary of State Marco Rubio arrives from Samarkand on Sunday and will hold talks with Jaishankar in Mumbai on Monday, 19 October, then visit Reliance's Jamnagar refinery. The arrangement sparked a political row after US Ambassador Sergio Gor said Washington "expected" Jaishankar to travel to Mumbai. No official reason has been given for skipping Delhi.</p>
+        <dl>
+          <dt>What happened?</dt><dd>MEA spokesperson Randhir Jaiswal confirmed the agenda: energy, trade and investment, defence, and critical and emerging technologies. Congress leader Rahul Gandhi wrote that Rubio had "summoned his employee to Mumbai", and Pawan Khera called it a "new low". Commerce Minister Piyush Goyal said the "first tranche" of a trade deal is in its final stages, but India will not sign until its exporters have an edge over Bangladesh, Vietnam and Indonesia. Tariffs on Indian goods fell from 50% to 18% under the February framework, but talks have stalled. The US has also suspended eight companies, including Infosys, TCS, Wipro and HCL, from a labour certification scheme.</dd>
+          <dt>Why it matters</dt><dd>Energy, tariffs and the Russian-oil waiver (item 03) now sit on the same agenda. Reliance is a major buyer of Venezuelan crude, which Washington has been urging India to buy more of. Carnegie's Sameer Lalwani argues that defence and technology ties have deepened even as Indian public opinion of the US has hit a record low; bilateral trade grew about 12% in 2025 to nearly $240 billion.</dd>
+          <dt>India's stance</dt><dd>Official: MEA confirmed the Mumbai agenda and said arrangements would be announced "at the appropriate time". Whether Jaishankar travels was not confirmed in the reports reviewed.</dd>
+          <dt>Competing viewpoints</dt><dd>The government treats the format as routine. The opposition calls it humiliating, and that is a political charge, not a finding. Analysts treat trade and energy as the real substance.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "A good trade deal is judged by what it protects as much as what it opens; say that you would set red lines on farm, data and energy interests before accepting a quick announcement."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">India-US trade deal</span> <span class="chip">18% tariff</span> <span class="chip">Piyush Goyal</span> <span class="chip">Jamnagar</span> <span class="chip">Strategic autonomy</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/why-marco-rubios-visit-to-mumbai-has-ruffled-feathers-in-india">Al Jazeera, 18 Oct</a>.</p>
+      </article>
+
+      <article id="starshield">
+        <p class="tag">05 / International · Ukraine, Space &amp; Technology</p>
+        <h2>Rubio says Ukraine does not have Starshield access for deep strikes into Russia, with the request "under discussion"</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Rubio said on 17 October that Ukraine has asked for access to Starshield, the military-grade satellite service, to carry out deep strikes inside Russia. He said Kyiv does not have access "at this moment" and that the request is "under conversation". He called reports that the White House slowed Starlink speeds "categorically false".</p>
+        <dl>
+          <dt>What happened?</dt><dd>Rubio distinguished Starshield, a defence product provided to the US government and designed for deeper encryption, from commercial Starlink. Zelenskyy said the satellites are not tracking antennas on objects travelling faster than 161 km/h, which affects Ukrainian drones defending against Russian jet-powered drones and their own medium-range attacks. Rubio rejected Zelenskyy's suggestion that the disruption was deliberate, saying "it wasn't deliberate". Zelenskyy separately said on 18 October that Russia's war "must be brought to an end".</dd>
+          <dt>Why it matters</dt><dd>Battlefield communication now depends on private satellite networks that foreign governments and companies can switch on or off. Whoever controls access shapes tactics, which puts sovereign capability at the centre of the debate.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian government statement on this issue in the sources reviewed. Inference: the dependency question is directly relevant to India's own satellite and space programme.</dd>
+          <dt>Competing viewpoints</dt><dd>Kyiv says restrictions are hurting its drones. Washington says access is under discussion and denies throttling. The reports do not settle whether speed reductions happened or who ordered them.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Technology dependence is a strategic risk; say that India should build indigenous capability in communications and space and avoid critical systems that rely on a single foreign provider."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Starshield</span> <span class="chip">Starlink</span> <span class="chip">Dual-use technology</span> <span class="chip">Satellite communications</span> <span class="chip">Strategic autonomy</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/rubio-says-ukraine-without-access-to-starshield-future-under-discussion">Al Jazeera, 18 Oct</a>; <a href="https://www.aljazeera.com/news/2026/10/15/what-is-starshield-and-who-limited-ukraines-access-to-it">Al Jazeera, 15 Oct (explainer)</a>.</p>
+      </article>
+
+      <article id="taiwan-ships">
+        <p class="tag">06 / Asia-Pacific · Taiwan Strait &amp; Maritime Security</p>
+        <h2>Taiwan drives away 16 Chinese coastguard, research and fishing vessels in what it calls "hybrid warfare"</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Taiwan's coastguard said on 18 October that it had confronted and driven away 16 Chinese coastguard, research and fishing vessels taking part in simultaneous "maritime harassment" operations around the main island and Pratas (Dongsha). It described the operations as "hybrid warfare", and said some ships entered its restricted waters.</p>
+        <dl>
+          <dt>What happened?</dt><dd>The Chinese vessels included four fishing boats. Taiwan said its ships took "forceful action immediately to effectively neutralise the threats" and accused Beijing of trying to "unilaterally alter the status quo" and create a "false impression of jurisdiction". Beijing claims Taiwan and Pratas as its territory. Taiwan's coastguard had fired water cannon at a Chinese recreational fishing vessel near Pratas on 1 October. Taiwanese data show Beijing deployed a record 244 coastguard, research and other ships around Taiwan in July, compared with 58 in July 2025.</dd>
+          <dt>Why it matters</dt><dd>Gray-zone pressure stays below the threshold of war, which makes it hard to answer without escalating. Using fishing and research vessels to build presence and legal claims at once is a model that other maritime disputes could copy.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian statement on these incidents in the sources reviewed. Inference: India's interest is freedom of navigation in the Indo-Pacific, which these incidents touch.</dd>
+          <dt>Competing viewpoints</dt><dd>Taiwan calls the operations harassment that alters the status quo. Beijing claims the waters as its jurisdiction. The vessel counts come from Taiwan's coastguard and are not independently verified.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Gray-zone tactics avoid a clear trigger; say that India should back freedom of navigation through diplomacy and maritime domain awareness, without taking sides in a dispute it is not party to."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Gray-zone warfare</span> <span class="chip">Taiwan Strait</span> <span class="chip">Pratas</span> <span class="chip">Freedom of navigation</span> <span class="chip">Maritime domain awareness</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment">Al Jazeera, 18 Oct</a>.</p>
+      </article>
+
+      <article id="france-unrest">
+        <p class="tag">07 / International · Europe &amp; Protest</p>
+        <h2>Macron calls France's nationwide rioting "anger and shame" as nearly 2,400 are arrested and school protests merge with cost-of-living anger</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> In a televised address on 18 October, President Macron said rioters and looters would "pay for their crimes". Saturday brought some of the worst urban violence in France in years, with about 1,000 police and gendarmes injured and nearly 2,400 arrests, according to the Interior Ministry.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Macron promised a "crisis unit" to help those affected, and said "lessons will be learned", but he stopped short of a state of emergency or curfew. The protests began as student blockades over underfunding and teacher shortages; the Gilets Jaunes joined over living costs and fuel prices. Left-wing candidate Jean-Luc Mélenchon said the government was "solely responsible" for the destruction, and far-right figure Jordan Bardella called the speech "cowardly". Presidential elections are due next year.</dd>
+          <dt>Why it matters</dt><dd>Youth-led protest over costs has become a fight over public order ahead of the presidential race. It shows how quickly local grievances can turn into a national crisis when they are joined by broader economic anger.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian comment in the sources reviewed. Inference: the episode is a useful case of how cost-of-living anger and public order interact.</dd>
+          <dt>Competing viewpoints</dt><dd>Macron separates "legitimate demands" from destruction. Opposition figures blame the government for failing to keep order. Protesters say they are tired of speeches. Each side's framing is contested.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Dissent and public order are both democratic obligations; say that legitimate demands deserve a response, violence deserves prosecution, and the state must be seen to act proportionately."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Cost-of-living protests</span> <span class="chip">Public order</span> <span class="chip">Gilets Jaunes</span> <span class="chip">Presidential politics</span> <span class="chip">Democratic dissent</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting">Al Jazeera, 18 Oct</a>; <a href="https://www.irishtimes.com/world/europe/2026/10/17/buildings-torched-as-cost-of-living-protests-spread-across-france">The Irish Times, 17 Oct</a>.</p>
+      </article>
+
+      <article id="west-bank-diplomats">
+        <p class="tag">08 / Middle East · West Bank &amp; Diplomacy</p>
+        <h2>Settlers attack a delegation of European diplomats in the West Bank, and the EU demands accountability</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Masked settlers attacked a visiting delegation of French, Belgian and Polish diplomats, with Church representatives, near the village of Taybeh on Saturday, 17 October, and smashed a Belgian vehicle's window. The EU's 27 members issued a statement on Sunday demanding accountability and measures to protect Palestinians and journalists, and an end to settlement expansion.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Bernard Baudoux, the 78-year-old mayor of Aulnoye-Aymeries in northern France, said he was kicked and beaten despite wearing his official sash. Israeli Foreign Minister Gideon Saar condemned the violence and said police had opened an investigation, but also criticised the delegation for not coordinating with the military. Netanyahu's office called violence against diplomats unacceptable but questioned whether circulating video showed enough to establish what happened. Separately, US photojournalist Heidi Levine was severely injured in Abu Falah on Friday. The UN humanitarian office says nearly 200 settler attacks linked to this year's olive harvest have caused casualties or damage, already above the 185 recorded in all of last season.</dd>
+          <dt>Why it matters</dt><dd>The olive harvest is income for tens of thousands of Palestinian families, and attacks now reach foreign diplomats and journalists. That raises pressure on Israel and on Washington; Rubio urged Israel to crack down on settler violence.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian statement in the sources reviewed; treat any reading of India's position here as inference.</dd>
+          <dt>Competing viewpoints</dt><dd>The EU, France and Belgium call for arrests and protection. Israel's government condemns the violence but disputes how much the video proves. Palestinian and UN figures describe a rising pattern of attacks, and the reports do not settle responsibility for each incident.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Impunity erodes the rule of law; say that the state must investigate, prosecute and protect, whatever community the victim or the attacker belongs to."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">West Bank</span> <span class="chip">Settler violence</span> <span class="chip">Olive harvest</span> <span class="chip">EU diplomacy</span> <span class="chip">Accountability</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank">Al Jazeera, 18 Oct</a>; <a href="https://www.aljazeera.com/news/2026/10/18/why-have-settler-pogroms-surged-during-olive-harvest-season-in-west-bank">Al Jazeera, 18 Oct (explainer)</a>.</p>
+      </article>
+
+      <article id="netanyahu-endorsement">
+        <p class="tag">09 / Geopolitics · US, Israel &amp; Elections</p>
+        <h2>Trump gives Netanyahu a "Complete and Total Endorsement" nine days before Israel's 27 October election</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> On Sunday, 18 October, Trump endorsed Netanyahu in a Truth Social post, praising him as an ally in the war on Iran. The endorsement comes nine days before Israel's parliamentary election, in which Netanyahu's Likud and its far-right coalition face a close race against an opposition bloc led by Gadi Eisenkot's Yashar party.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Trump had refused to endorse Netanyahu earlier this month. Asked by Axios whether the endorsement was in doubt, he said: "I was always going to do that. I just didn't want to do it too soon." Asked whether he could work with another Israeli leader, he replied: "Maybe I will, maybe I won't." In the post he defended launching the war on Iran, saying Iran was "systematically destroyed", and that without Netanyahu "America will have to do this work ourselves". Netanyahu thanked Trump in a video and told American voters that Iran's nuclear threat would drive US gas prices down. A Pew poll cited by Al Jazeera found about two-thirds of US voters disapprove of Trump's handling of the war.</dd>
+          <dt>Why it matters</dt><dd>The endorsement links two elections, in the US and Israel, with the Iran war and fuel prices at their core. It also shows how personal the US-Israel relationship has become, which could shape Israel's next government's choices on Iran.</dd>
+          <dt>India's stance</dt><dd>Official: I found no Indian statement. Inference: India follows Israeli politics mainly for its effect on the Iran war and energy prices.</dd>
+          <dt>Competing viewpoints</dt><dd>Supporters of Netanyahu call him a steadfast ally. Reports also describe disagreements with Trump over the Iran war and Lebanon, and Trump's earlier reticence. The outcome of the Israeli vote remains open.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Endorsements across borders signal alignment, not neutrality; say that India should keep ties with any elected government in a democracy and avoid being drawn into another country's campaign."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Israeli election</span> <span class="chip">US midterms</span> <span class="chip">Iran war</span> <span class="chip">Bilateral alliances</span> <span class="chip">Election interference</span></p>
+        <p class="source">Sources: <a href="https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections">Al Jazeera, 18 Oct</a>.</p>
+      </article>
+
+      <article id="kolkata-stampede">
+        <p class="tag">10 / India · Public Safety &amp; Crowd Management</p>
+        <h2>Kolkata Durga Puja stampede toll rises to 19 as seven are arrested and a sitting High Court judge is to probe the incident</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> The toll from the stampede at the Chorbagan Sarbojanin Durga Puja pandal in Kolkata has risen to 19, with 25 injured, according to The New Indian Express and The Times of India. Seven people have been arrested. Chief Minister Suvendu Adhikari said the pandal's organisers have been detained, and a sitting High Court judge is to probe the incident.</p>
+        <dl>
+          <dt>What happened?</dt><dd>The 17 October brief reported 17 deaths; the count has since risen to 19. Union Home Minister Amit Shah visited the injured, and the state government announced financial support for the families of the victims (The Daily Star). Hindustan Times live coverage reports the organisers' detention. The figures were still changing at the time of reporting, and the cause is under investigation.</dd>
+          <dt>Why it matters</dt><dd>Crowd crushes at festivals recur in India. This case raises questions about permits, entry and exit control, crowd caps and emergency response during the festival season, when large pandals draw heavy crowds across several days.</dd>
+          <dt>India's stance</dt><dd>Official: the state government has announced financial support and a judicial probe, and the Union Home Minister visited the injured. I did not locate a Centre-level inquiry in the sources reviewed.</dd>
+          <dt>Competing viewpoints</dt><dd>The state government points to the organisers and the arrests, and the judicial probe will determine responsibility. Until the inquiry reports, any attribution of blame is preliminary.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Crowd safety is a planning problem, not fate; say that you would set entry-exit routes, capacity limits and emergency protocols before the event, and make organisers answerable for them."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Crowd management</span> <span class="chip">Stampede</span> <span class="chip">Durga Puja</span> <span class="chip">Event permits</span> <span class="chip">Judicial inquiry</span></p>
+        <p class="source">Sources: <a href="https://www.newindianexpress.com/states/west-bengal/2026/Oct/18/kolkata-durga-puja-stampede-toll-rises-to-19-seven-arrested-amit-shah-visits-injured">The New Indian Express, 18 Oct</a>; <a href="https://www.hindustantimes.com/india-news/kolkata-stampede-live-updates-chorbagan-sarbojanin-durgotsab-samity-durga-puja-pandal-deaths-bengal-suvendu-adhikari-101792254911241.html">Hindustan Times, 18 Oct (live)</a>; <a href="https://www.thehindu.com/news/cities/kolkata/kolkata-durga-puja-stampede-toll-rises-to-19-sitting-hc-judge-to-probe-incident/article71598984.ece">The Hindu</a>.</p>
+      </article>
+    </section>
+
+    <section class="revision" aria-labelledby="revision-title">
+      <h2 id="revision-title">60-second revision: three useful connections</h2>
+      <ol>
+        <li><strong>Compared with 17 October 2026:</strong> The Graham waiver is now a signed order drawing bipartisan criticism (item 03). The Hormuz story moved from claims to mine strikes on two tankers (item 01). The Kolkata toll rose from 17 to 19, and Rubio's India visit is now set for Mumbai and Jamnagar rather than Delhi (item 04). Stories from 17 October that I did not re-check today, including the IMFC walkout, the CJP case and the India-West Indies T20I, are not carried forward.</li>
+        <li><strong>Connective theme:</strong> Energy chokepoints run through today's stories: mined shipping in Hormuz (item 01), Houthi strikes on Saudi oil and airports (item 02), and a sanctions waiver aimed at easing oil prices before the 3 November US midterms (item 03). India's common answer is reserves, diversified crude and sea-lane diplomacy.</li>
+        <li><strong>Connective theme:</strong> Dependence and alliance politics: Ukraine's access to Starshield (item 05), Egypt's defence pledge to Saudi Arabia (item 02) and Taiwan's gray-zone pressure (item 06) show that security now depends on partners, satellites and a constant maritime presence. India's test is building its own capability while keeping its options open.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Prepared for SSB Group Discussion, Lecturette and Personal Interview on 18 October 2026. Summaries and viewpoints are original study notes, not reproductions of linked reporting. Follow source updates before quoting figures; political accusations and sabotage attributions remain attributed claims.</div>
+  </footer>
+</body>
+</html>
