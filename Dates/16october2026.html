@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="16 October 2026 current affairs brief for SSB: facts, relevance, competing viewpoints, and discussion cues.">
+  <title>16 October 2026 | Current Affairs Brief</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#182c39;
+      --muted:#51626b;
+      --navy:#153a50;
+      --saffron:#c86529;
+      --green:#24715d;
+      --paper:#f5f3ed;
+      --line:#d9dfdc;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    a { color:#125c75; text-underline-offset: 3px; }
+    a:focus-visible { outline:3px solid var(--saffron); outline-offset:3px; }
+    .wrap { width: min(1100px, calc(100% - 20px)); margin: auto; }
+    header {
+      background: var(--navy);
+      color:#fff;
+      border-bottom: 6px solid var(--saffron);
+      padding: 28px 0 24px;
+    }
+    .eyebrow {
+      margin:0 0 8px;
+      color:#ffd5aa;
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:0;
+      font:700 clamp(2rem,7vw,4.3rem)/1.08 Georgia, serif;
+    }
+    header p:last-child {
+      max-width:780px;
+      margin:16px 0 0;
+      color:#e1ebed;
+      font-size:0.98rem;
+    }
+    main { padding:20px 0 48px; }
+    .home-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin:0 0 18px;
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--navy);
+      color:#fff;
+      font-size:.92rem;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .home-link:hover { background:#1c4963; }
+    .intro {
+      background:#fff;
+      border:1px solid var(--line);
+      border-left:5px solid var(--green);
+      padding:18px 16px;
+      margin-bottom:18px;
+    }
+    .intro h2 { margin:0 0 8px; font-size:1.1rem; }
+    .intro p { margin:0 0 9px; }
+    .intro p:last-child { margin-bottom:0; }
+    nav {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:0 0 18px;
+    }
+    nav a {
+      flex:1 1 calc(50% - 8px);
+      min-width:120px;
+      background:#e1ebe9;
+      padding:8px 12px;
+      border-radius:20px;
+      font-size:.87rem;
+      font-weight:650;
+      text-decoration:none;
+      text-align:center;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    article {
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+      background:#fff;
+      border:1px solid var(--line);
+      border-top:4px solid var(--green);
+      border-radius:5px;
+      padding:18px;
+      box-shadow:0 3px 14px #172c390c;
+    }
+    .tag {
+      margin:0 0 9px;
+      color:var(--green);
+      font-size:.72rem;
+      font-weight:800;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    h2 {
+      margin:0 0 12px;
+      font:700 clamp(1.35rem,4vw,1.7rem)/1.25 Georgia,serif;
+    }
+    .summary {
+      margin:0;
+      padding:12px 14px;
+      background:#f2f6f4;
+      border-radius:4px;
+    }
+    .label { color:var(--navy); font-weight:750; }
+    dl { margin:13px 0; }
+    dt { font-weight:800; color:var(--navy); margin-top:12px; }
+    dd { margin:2px 0 0; color:var(--muted); }
+    .cue {
+      margin:auto 0 12px;
+      padding:12px 14px;
+      background:#fff1e3;
+      border-left:3px solid var(--saffron);
+    }
+    .source { margin:0; font-size:.85rem; overflow-wrap:anywhere; }
+    .explore { margin:0 0 10px; font-size:.85rem; color:var(--muted); }
+    .explore strong { color:var(--navy); }
+    .chip {
+      display:inline-block;
+      margin:4px 6px 0 0;
+      padding:3px 10px;
+      background:#eef3f1;
+      border:1px solid var(--line);
+      border-radius:999px;
+      font-size:.78rem;
+      font-weight:650;
+      color:var(--green);
+    }
+    .revision {
+      margin-top:26px;
+      background:var(--navy);
+      color:#fff;
+      padding:20px 18px;
+      border-radius:5px;
+    }
+    .revision h2 { margin-bottom:9px; }
+    .revision ol { margin:0; padding-left:23px; }
+    .revision li { margin:5px 0; }
+    footer {
+      border-top:1px solid var(--line);
+      padding:18px 0 28px;
+      color:var(--muted);
+      font-size:.85rem;
+    }
+    @media (min-width: 760px) {
+      .wrap { width:min(1100px,calc(100% - 36px)); }
+      header { padding:45px 0 40px; }
+      .grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      article { padding:22px; }
+      .intro { padding:20px 24px; }
+      .revision { padding:24px; }
+      nav a { flex:0 0 auto; }
+    }
+    @media print {
+      body { background:#fff; }
+      header { padding:15px 0; }
+      article,.intro,.revision { break-inside:avoid; box-shadow:none; }
+      nav { display:none; }
+    }
+  </style>
+  <link rel="stylesheet" href="../assets/theme.css">
+  <script src="../assets/theme.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Daily intelligence brief · Friday, 16 October 2026 · India time</p>
+      <h1>The news, framed for SSB</h1>
+      <p>India • Defence • Geopolitics • International affairs • Politics • Economy • Sports.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <a class="home-link" href="../index.html" aria-label="Go to homepage">Home</a>
+
+    <section class="intro" aria-labelledby="method">
+      <h2 id="method">How to speak</h2>
+      <p>Use <strong>fact → stakeholders → why it matters → trade-off → practical conclusion</strong>. Distinguish a reported allegation from a finding; do not confuse an announced proposal with a completed outcome. Aim for a calm 30-45-second answer, not a memorised editorial.</p>
+    </section>
+
+    <nav aria-label="Jump to topics">
+      <a href="#ins-samarthak">INS Samarthak</a>
+      <a href="#cjp-tiranga">CJP Tiranga march</a>
+      <a href="#houthi-saudi-iran">Saudi, Houthis &amp; Iran</a>
+      <a href="#india-unsc">India at UNSC</a>
+      <a href="#rubio-mumbai">Rubio in Mumbai</a>
+      <a href="#temple-plot">Temple plot</a>
+      <a href="#ukraine-eu">Ukraine &amp; EU</a>
+      <a href="#china-trade">China &amp; ASEAN trade</a>
+      <a href="#it-rally">IT rally</a>
+      <a href="#gaganyaan">Gaganyaan</a>
+      <a href="#bhandari-governor">Bhandari &amp; Governor</a>
+    </nav>
+
+    <section class="grid" aria-label="Today's major headlines">
+      <article id="ins-samarthak">
+        <p class="tag">01 / Defence · Navy &amp; Self-reliance</p>
+        <h2>Navy commissions INS Samarthak at Karwar, the first indigenous multi-purpose vessel and the first major warship built by a private yard</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> On 16 October Vice-President C.P. Radhakrishnan presided over the commissioning of INS Samarthak at Karwar. Built by Larsen &amp; Toubro at Kattupalli, the vessel will support weapons and sensor trials, unmanned-systems operations, surveillance and disaster response. The Navy says over 75% of its content is indigenous.</p>
+        <dl>
+          <dt>What happened?</dt><dd>The Hindu and The Economic Times report that the Navy commissioned Samarthak at the naval base in Karwar in the presence of Chief of the Naval Staff Admiral Krishna Swaminathan. Reports say L&amp;T delivered the ship on 27 August 2026 and that it can serve as a test platform for indigenous sensors and weapons, a mothership for drones and a support vessel in emergencies. Accounts differ on the class size: The Hindu and CNBC-TV18 call it the first of two vessels, while The Economic Times says first of four; I could not settle which is right. This is new since the 15 October brief, which did not cover it.</dd>
+          <dt>Why it matters</dt><dd>A privately built warship entering service shows that India's defence industrial base is widening beyond public-sector yards. A dedicated trials ship also shortens the path from a domestic prototype to a tested system, though one vessel does not by itself prove combat capability.</dd>
+          <dt>India's stance</dt><dd>Official, as reported: the Vice-President called the induction a milestone in self-reliant defence manufacturing.</dd>
+          <dt>Competing viewpoints</dt><dd>Supporters see proof that private yards can deliver naval hulls. Sceptics would note that "indigenous content" is a percentage the Navy reports, that critical sensors and engines are often imported, and that this is a support ship rather than a combatant. The scepticism is my framing, not an official or reported position.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Self-reliance is built ship by ship: welcome the private-sector milestone, ask what share is truly indigenous, and say you would measure success by readiness, not ceremony."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Multi-purpose vessel</span> <span class="chip">L&amp;T Kattupalli</span> <span class="chip">Make in India</span> <span class="chip">Weapons trials</span> <span class="chip">Unmanned systems</span></p>
+        <p class="source">Sources: <a href="https://www.thehindu.com/news/national/karnataka/ins-samarthak-commissioned-at-karwar-vice-president-cp-radhakrishan-terms-it-a-milestone-in-self-reliant-defence-manufacturing/article71593300.ece">The Hindu, 16 Oct</a>; <a href="https://economictimes.indiatimes.com/news/defence/indian-navy-inducts-multi-purpose-ins-samarthak-a-drone-mothership-and-weapons-testbed-the-first-major-warship-built-by-a-private-shipyard/articleshow/134987278.cms">The Economic Times, 16 Oct</a>; <a href="https://www.deccanchronicle.com/southern-states/karnataka/indian-navy-inducts-indigenous-multi-purpose-warship-samarthak-in-karwar-1996335">Deccan Chronicle, 16 Oct</a>.</p>
+      </article>
+
+      <article id="cjp-tiranga">
+        <p class="tag">02 / India · Protest &amp; Civil Liberties</p>
+        <h2>Delhi Police detain CJP founder Abhijeet Dipke and AISA president Neha Bora as the "Lehra Do Tiranga" march to Connaught Place is blocked</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Before the 5 pm "Lehra Do Tiranga" gathering at Central Park, Delhi Police detained Cockroach Janta Party founder Abhijeet Dipke and AISA president Neha Bora. Central Park had been closed for 16-17 October and Section 163 orders were in force. The party says the march backs two jailed leaders; police cite law and order.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Continuing the CJP and Supreme Court protest story from the 15 October brief, which covered the build-up to the planned march: The Hindu and CNBC-TV18 report that Dipke was picked up from his residence in Jhandewalan and Neha Bora at Mandi House while on the way to Connaught Place. The New Delhi Municipal Council closed Central Park for 16-17 October, and prohibitory orders under Section 163 of the BNSS were in force. The Hindu also reports that the Delhi High Court, hearing a vendor's plea, declined to stop the protest and recorded police assurances. The New Indian Express headline puts the detentions at over 150 people; the Indian Express says the march ended amid scuffles. ETV Bharat reports that Bora was released after procedure under the Delhi Police Act while action under BNSS sections 126 and 170 was begun against Dipke, who was to be produced before a Special Executive Magistrate; I found no later report. Das and Ranka remain in judicial custody to about 19 October (my calculation from the five-day order).</dd>
+          <dt>Why it matters</dt><dd>It tests where lawful assembly ends and public order begins, and whether pre-emptive detention is proportionate. The underlying political question, the CJP's allegation of irregularities in the Special Intensive Revision of electoral rolls and its protest against Chief Election Commissioner Gyanesh Kumar, is separate and unproven.</dd>
+          <dt>India's stance</dt><dd>Official, as reported: police and the NDMC cite public safety, traffic and prohibitory orders. Delhi Chief Minister Rekha Gupta has called the CJP "AAP's B-team", as reported; that is a political charge, not a finding.</dd>
+          <dt>Competing viewpoints</dt><dd>The CJP says the march is peaceful and backs its two jailed leaders; police and the NDMC cite public safety and prohibitory orders. Critics of the state say preventive detention chills dissent; others say a large crowd in a busy commercial hub needs regulation. I found no court finding on either side's claims.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Peaceful protest and public order are both rights; say that you would defend the first through clear, narrow, time-bound rules and criticise any detention that looks pre-emptive without a specific threat."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Right to assemble</span> <span class="chip">Section 163 BNSS</span> <span class="chip">Preventive detention</span> <span class="chip">SIR of electoral rolls</span> <span class="chip">Jantar Mantar</span></p>
+        <p class="source">Sources: <a href="https://www.thehindu.com/news/national/cjp-delhi-tiranga-march-oct-16-2026-live-updates/article71590925.ece">The Hindu live, 16 Oct</a>; <a href="https://www.thehindu.com/news/cities/Delhi/cjp-tiranga-march-dipke-neha-bora-protesters-detained/article71592367.ece">The Hindu, 16 Oct</a>; <a href="https://www.newindianexpress.com/live/2026/Oct/16/cjp-protest-live-delhi-police-reach-abhijeet-dipkes-home-ahead-of-tiranga-march">The New Indian Express, 16 Oct</a>; <a href="https://www.etvbharat.com/en/bharat/cjp-lehra-do-tiranga-protest-central-park-connaught-place-abhijit-dipke-neha-bora-updates-enn26101700512">ETV Bharat, 16-17 Oct</a>; <a href="https://www.france24.com/en/asia-pacific/20261016-indian-authorities-heighten-security-close-park-ahead-cockroach-movement-rally">France 24, 16 Oct</a>.</p>
+      </article>
+
+      <article id="houthi-saudi-iran">
+        <p class="tag">03 / Geopolitics · West Asia</p>
+        <h2>Saudi Arabia says Iran is encouraging the Houthi attacks and breaching the 2023 Beijing agreement; the UN Security Council condemns the strikes on Riyadh airport</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> A Saudi deputy foreign minister, Rayed Krimly, said on 15 October that Iran continues to arm, train and support the Houthis, in breach of UN resolutions and the 2023 China-brokered deal. The Security Council issued a presidential statement condemning Houthi strikes on Saudi Arabia. Saudi Arabia still talks to Tehran.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Continuing the Houthi-Saudi story from the 15 October brief, which stopped at the Medina interception and Riyadh airport's closure: in an AP-reported briefing, Krimly said the Houthi escalation "is encouraged by Iran" and that Iran's support breaches UN resolutions and the March 2023 Beijing agreement. He added that the Houthis refused a Muscat meeting in July, that Oman is a facilitator, that Saudi Arabia keeps direct channels with Iran and backs Qatari and Pakistani mediation between Washington and Tehran, and that Iran's proposals so far are "insufficient". Foreign Minister Abbas Araghchi has called the Saudi blockade of the Houthis unjust and illegal. On 15 October the Security Council adopted presidential statement S/PRST/2026/4 condemning the 10-11 October strikes on King Khalid International Airport, which it says killed 13 and wounded over 300, and affirming Saudi Arabia's right of self-defence. The coalition spokesman separately cited 20 attacks on the airport this month and 17 dead; AP counts at least 19 deaths overall. The figures differ by source and period.</dd>
+          <dt>Why it matters</dt><dd>If Riyadh formally blames Tehran, the Gulf war widens from a US-Iran conflict into a Saudi-Iran rift and strains the one major China-brokered détente. About 10 million Indians live in GCC states, and the Red Sea route is the alternative to Hormuz for energy and cargo.</dd>
+          <dt>India's stance</dt><dd>Official: see story 04 for India's statement at the Security Council on 15 October. I found no separate Indian comment on Krimly's accusation.</dd>
+          <dt>Competing viewpoints</dt><dd>Saudi Arabia and the Council condemn the strikes. Iran, per its foreign minister, regards the Saudi blockade of Houthi areas as unlawful. Krimly also said elements in China and Russia help Iran and the Houthis, a claim for which I saw few details and could not verify.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "In a proxy war, attribution is a political act as well as a factual one; say that you would verify the chain of supply, protect civilians first and keep diplomatic channels open."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Houthis</span> <span class="chip">Beijing agreement 2023</span> <span class="chip">Bab el-Mandeb</span> <span class="chip">UNSC presidential statement</span> <span class="chip">Qatar-Pakistan mediation</span> <span class="chip">Proxy war</span></p>
+        <p class="source">Sources: <a href="https://www.pbs.org/newshour/world/saudi-diplomat-says-iran-is-encouraging-houthi-escalation-of-attacks-on-the-kingdom">PBS News (AP), 15 Oct</a>; <a href="https://press.un.org/en/2026/sc16479.doc.htm">UN Meetings Coverage SC/16479, 15 Oct</a>.</p>
+      </article>
+
+      <article id="india-unsc">
+        <p class="tag">04 / India · Foreign Policy &amp; Maritime Security</p>
+        <h2>India tells the UN Security Council that attacks on shipping are "legally and morally indefensible" and stands "in complete solidarity" with Saudi Arabia after an Indian is killed in Riyadh</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> At the Council's Middle East debate on 15 October, India's envoy Parvathaneni Harish condemned attacks on Saudi airports and merchant ships, noted an Indian killed in Riyadh, and cited five recent ship attacks, including one on an India-flagged vessel. He said 10 million Indians in the GCC give India very high stakes.</p>
+        <dl>
+          <dt>What happened?</dt><dd>This answers a gap in the 15 October brief, which found no Indian statement on the Houthi attacks. PTI and Open magazine report that Ambassador Harish condemned the attacks on Saudi airports, noted that an Indian citizen died in Riyadh, and expressed "complete solidarity" with Saudi Arabia. He cited attacks on the India-flagged MV DP World Cauvery and on MT Petro Dolphin, MT Valthera, MT On Peace and MT Kazimah III, said all attacks on commercial shipping and merchant mariners are "legally and morally indefensible", thanked Oman and the UAE, called protection of Bab el-Mandeb a shared responsibility, reaffirmed Yemen's unity, sovereignty and territorial integrity, and also flagged Gaza. The statement was made on 15 October and reported on 15-16 October.</dd>
+          <dt>Why it matters</dt><dd>It is India's clearest public position yet on the Houthi-Saudi front, and it links diplomacy to a direct duty: the safety of Indian seafarers and the Gulf diaspora. It also shows India siding with a Gulf partner and with freedom of navigation without naming Iran.</dd>
+          <dt>India's stance</dt><dd>Official, from the statement: solidarity with Saudi Arabia, protection of seafarers and maritime trade, and respect for Yemen's sovereignty and territorial integrity. I did not check whether the full text names those responsible for the attacks.</dd>
+          <dt>Competing viewpoints</dt><dd>Inference, not an official position: careful wording would protect ties with both Riyadh and Tehran and keep options open for Indian shipping, while critics could argue that firmer attribution is needed when Indian crew are being hurt.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Balanced diplomacy has a test: citizens' safety; say that you would stay neutral on blocs but firm on attacks on civilians and merchant crews."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">UNSC open debate</span> <span class="chip">Indian seafarers</span> <span class="chip">GCC diaspora</span> <span class="chip">Bab el-Mandeb</span> <span class="chip">Freedom of navigation</span> <span class="chip">Strategic autonomy</span></p>
+        <p class="source">Sources: <a href="https://www.newsdrum.in/international/attacks-on-ships-legally-morally-indefensible-india-tells-un-amid-west-asia-conflict-12680943">PTI via NewsDrum, 15 Oct</a>; <a href="https://openthemagazine.com/india/attacks-on-commercial-shipping-legally-and-morally-indefensible-india-at-un">Open magazine, 15-16 Oct</a>.</p>
+      </article>
+
+      <article id="rubio-mumbai">
+        <p class="tag">05 / India · US and Gulf Diplomacy</p>
+        <h2>MEA confirms Jaishankar-Rubio talks in Mumbai on 20 October and a UAE foreign minister visit on 19-20 October; it rejects Congress's claim that Jaishankar was "summoned"</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> At its briefing on 16 October, the MEA said External Affairs Minister S. Jaishankar will hold talks with US Secretary of State Marco Rubio in Mumbai on 20 October and host UAE Deputy PM Sheikh Abdullah bin Zayed there on 19-20 October. It called hosting guests outside Delhi "not a new practice".</p>
+        <dl>
+          <dt>What happened?</dt><dd>Continuing the US trade and Rubio story from the 15 October brief, which carried the US announcement of Rubio's visit: spokesperson Randhir Jaiswal said Jaishankar will host the UAE Deputy PM and Foreign Minister in Mumbai on 19-20 October and, on 20 October, hold talks with Rubio and attend the 250th US Independence celebration as guest of honour. Business Standard reports that the agenda covers the Comprehensive Global Strategic Partnership, energy and trade; Times of India reports that Rubio's visit runs 17-22 October, including Mumbai and Jamnagar. Congress, including Rahul Gandhi, had said the US "summoned" Jaishankar; Jaiswal replied that hosting dignitaries outside Delhi is "not a new practice".</dd>
+          <dt>Why it matters</dt><dd>The visit comes while the US eases Russian diesel sanctions, an energy-tariff law is pending and the Gulf war is lifting oil prices. India has to defend its energy and trade interests with Washington and, on the same days, with the UAE, a key energy and diaspora partner.</dd>
+          <dt>India's stance</dt><dd>Official, from MEA: the agenda covers the strategic partnership, energy and trade, and the venue is routine. Whether Russian oil or the Graham Act will be raised was not stated in what I found.</dd>
+          <dt>Competing viewpoints</dt><dd>The government presents a normal visit. Congress presents the Mumbai venue as a sign of deference. In my reading, the venue is a political argument; the substance is energy and trade terms.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Judge partnerships by outcomes, not optics; say that venue is a minor matter and that you would prepare India's red lines on energy, tariffs and technology before any meeting."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">India-US trade deal</span> <span class="chip">Marco Rubio</span> <span class="chip">Jaishankar</span> <span class="chip">UAE ties</span> <span class="chip">Energy diplomacy</span> <span class="chip">Strategic autonomy</span></p>
+        <p class="source">Sources: <a href="https://www.business-standard.com/external-affairs-defence-security/news/hosting-foreign-dignitaries-outside-delhi-not-a-new-practice-says-mea">Business Standard, 16 Oct</a>; Times of India, 16 Oct (visit dates; I did not link this report).</p>
+      </article>
+
+      <article id="temple-plot">
+        <p class="tag">06 / International · Diaspora Security</p>
+        <h2>MEA calls the alleged plot to shoot worshippers at a Hindu temple in Illinois "a matter of deep concern" and urges the US to protect Indians</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> On 16 October MEA spokesperson Randhir Jaiswal said the reported plot to attack a Hindu temple in Illinois is a matter of deep concern and urged US authorities to take necessary steps to protect the Indian community. A 19-year-old, Alexandros Paporakis, was arrested on 11 October; the allegations are untested in court.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Continuing the temple-plot story from the 15 October brief: Jaiswal said, "We have seen reports about an alleged plot to carry out a mass shooting targeting a Hindu temple in Illinois. This is a matter of deep concern for us." The Hindu reports that India asked the US to ensure the safety and security of Indians. Mid-day and Deccan Herald report that the MEA also pointed to rising hate crimes and racial hostility against Indians in the US; I did not see the full MEA transcript, so treat the exact wording of that part as reported. Paporakis, 19, was arrested on 11 October; the allegations have not been tested in court.</dd>
+          <dt>Why it matters</dt><dd>It is an official Indian reaction made four days before the Jaishankar-Rubio meeting, and it puts diaspora safety alongside trade and energy; that link is my inference, not an MEA statement.</dd>
+          <dt>India's stance</dt><dd>Official, from MEA: deep concern and a request that US authorities protect the community. I found no formal demand beyond that.</dd>
+          <dt>Competing viewpoints</dt><dd>Indian officials stress that diaspora safety is a concern, and the MEA, as reported, links the case to rising hate crimes. The suspect has not been tried, and I found neither a US government reaction to the MEA remarks nor a confirmed motive, so the "hate" framing should be treated as an Indian official view, not a finding.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Protecting citizens abroad is a quiet, persistent duty; say that you would back the host country's investigation, share concerns through official channels and avoid turning one arrest into a verdict on a whole society."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Hate crime</span> <span class="chip">Indian diaspora</span> <span class="chip">MEA briefing</span> <span class="chip">Consular protection</span></p>
+        <p class="source">Sources: <a href="https://www.thehindu.com/news/national/mea-calls-on-us-to-ensure-safety-security-of-indians-after-foiled-illinois-temple-attack/article71594327.ece">The Hindu, 16 Oct</a>; <a href="https://www.deccanherald.com/india/racist-hostility-and-anti-india-hate-in-us-india-reacts-to-mass-shooting-plot-targeting-hindu-temple-in-illinois-4183686">Deccan Herald, 16 Oct</a>; <a href="https://www.mid-day.com/news/india-news/article/illinois-hindu-temple-shooting-plot-mea-flags-rising-hate-crimes-and-racial-discrimination-against-indians-23655464">Mid-day, 16 Oct</a>.</p>
+      </article>
+
+      <article id="ukraine-eu">
+        <p class="tag">07 / International · Ukraine War &amp; Transatlantic Rift</p>
+        <h2>Zelensky asks EU leaders for €70 billion and more Patriots as Trump calls Ukraine's refinery strikes "a disgrace"</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> At an EU summit in Brussels on 16 October, Zelensky asked for €70 billion in extra support next year and more Patriot missiles. Leaders showed unity but asked the Commission only for a financing proposal. Trump had called Kyiv's renewed refinery strikes a "disgrace" and said Putin is easier to deal with.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Continuing the Starshield and diesel stories from the 15 October brief: according to France 24 (with AFP), Zelensky asked for an extra €70 billion for next year and more Patriot missiles; von der Leyen said it "has to be covered" and leaders asked the Commission to propose financing. Macron said backers will analyse the request and Merz said it will be discussed before year-end. Council President Costa said, "This is no time to withdraw the support to Ukraine. This is no time to relieve Russia's sanctions." A €90 billion EU loan is paying out in instalments, while calls to use roughly €200 billion of frozen Russian assets lack momentum because Belgium opposes. Trump called Kyiv's refinery strikes a "disgrace" and said it was easier to deal with Putin, after the US eased Russia sanctions in a diesel deal. The Starlink disruption has partly eased: Zelensky said speed is being restored but not fully. France 24 says Musk denied his company caused the disruption and a US official denied any intervention by Trump; the 15 October brief recorded Musk saying limits are set by the US military and "ultimately POTUS". I could not reconcile these accounts. The Graham Act deadline of 18 October was still pending in the reports I found; I found no confirmed decision as of 16 October.</dd>
+          <dt>Why it matters</dt><dd>A European funding gap and doubts about US support affect how long Ukraine can fight. Inference, not an official position: any US easing of Russia sanctions, set against the Graham Act's threat of secondary tariffs on buyers of Russian energy, could bear directly on India, a major buyer of discounted Russian oil.</dd>
+          <dt>India's stance</dt><dd>Official: I found no new Indian statement on Ukraine or on the Graham Act on 16 October.</dd>
+          <dt>Competing viewpoints</dt><dd>EU leaders, per Costa, want support kept up and Russia's sanctions maintained, though they asked only for a financing proposal. Trump, as reported, blames Kyiv's refinery strikes and says Putin is easier to deal with. Zelensky says Starlink speed is being restored but not fully; Musk and a US official deny responsibility for the disruption.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Alliances are tested when a partner wavers; say that you would diversify support, plan for the longer war and never let one supplier hold the switch on a critical capability."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">€70bn request</span> <span class="chip">Frozen Russian assets</span> <span class="chip">Patriot missiles</span> <span class="chip">Starshield</span> <span class="chip">Graham Act</span> <span class="chip">Russian oil</span></p>
+        <p class="source">Sources: <a href="https://www.france24.com/en/europe/20261016-zelensky-turns-to-europe-for-backing-as-ties-with-trump-deteriorate">France 24 (AFP), 16 Oct</a>; 15 October brief of this archive for the Starshield, diesel licence and Graham Act background.</p>
+      </article>
+
+      <article id="china-trade">
+        <p class="tag">08 / Economy · Trade &amp; India-China Relations</p>
+        <h2>Sitharaman says China's non-tariff barriers are the biggest hurdle to Indian exports and asks for a review of the ASEAN trade pact</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Speaking in Bangkok on 16 October, Finance Minister Nirmala Sitharaman said China denies Indian goods market access despite repeated requests, and that India's trade deficit with it more than doubled in a decade to $112 billion in FY26. She also called for refashioning the India-ASEAN pact. China said it never aims for a surplus.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Business Standard reports that Sitharaman, at an Atlantic Council event on the sidelines of the IMF-World Bank meetings, said non-tariff barriers are "the biggest hurdle in the trade between India and China", naming generic drugs, bovine meat and agricultural products. India's deficit with China rose from $52.7 billion in FY16 to $112 billion in FY26, and with ASEAN it passed $50 billion in FY26. India has not used countervailing duties in response and prefers negotiation, defended staying out of RCEP, hoped the India-US trade deal is concluded soon, and said goods and services exports grew 23% in September. China's foreign ministry spokesperson Mao Ning said Beijing is ready to address concerns "in a balanced way". Business Standard also reports that Prime Minister Modi and Canada's foreign minister discussed concluding a CEPA by year-end; I did not open that report.</dd>
+          <dt>Why it matters</dt><dd>It shows how India pairs engagement with China, which Commerce Minister Goyal said this week India is working to develop, with open complaints about market access. A wide deficit raises dependence on Chinese inputs, my reading rather than a quoted official view.</dd>
+          <dt>India's stance</dt><dd>Official, from the Finance Minister: raise market-access issues through negotiation rather than retaliation, refashion the ASEAN pact, and conclude the US deal quickly.</dd>
+          <dt>Competing viewpoints</dt><dd>China says it does not seek a surplus and is open to balanced talks. Some analysts argue India's deficit also reflects Indian industry's reliance on Chinese components, which tariff talks alone will not fix; that is my reading, not a reported official view.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Trade deficits are a symptom; say that you would negotiate market access firmly, build domestic capacity in inputs and spread risk across several partners."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Non-tariff barriers</span> <span class="chip">India-China trade deficit</span> <span class="chip">India-ASEAN FTA</span> <span class="chip">RCEP</span> <span class="chip">Trade diversification</span></p>
+        <p class="source">Sources: <a href="https://www.business-standard.com/economy/news/china-s-non-tariff-barriers-biggest-hurdle-for-indian-exports-sitharaman-126101601245_1.html">Business Standard, 16 Oct</a>.</p>
+      </article>
+
+      <article id="it-rally">
+        <p class="tag">09 / Economy · Markets &amp; Technology</p>
+        <h2>Nifty IT records its best week in about 18 years as Q2 results and a global AI sell-off pull investors back; Sensex ends at 74,729</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> On 16 October the Sensex rose 413.66 points to 74,729.27 and the Nifty gained 148.80 points to 23,146.15, both up for a second week. The Nifty IT index rose about 11.5% for the week, its biggest since 2008, helped by stronger Q2 results. Brent oil was reported near $110.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Reuters, Business Standard, Mint and CNBC-TV18 report that IT stocks led the benchmarks, with Tech Mahindra, TCS and Infosys among the top gainers. Reuters and Business Standard say the Nifty IT index gained about 11.7% in the week, adding roughly ₹2.75 trillion in market value, partly because investors rotated from AI-linked stocks into software and IT services. Coverage cites stronger-than-expected September-quarter results. Experts quoted in market coverage call the rise valuation normalisation after an extreme de-rating rather than a demand-led upcycle. The index is still down about 15.7% for the year. Trading Economics reports Brent at about $109.66, up 3.5% on the day, a data-provider figure I have not cross-checked. This differs from the 15 October brief, which covered trade and rupee data but not equities.</dd>
+          <dt>Why it matters</dt><dd>IT services are a large source of India's exports, jobs and foreign exchange, so a sector sell-off or recovery affects sentiment and the rupee. The rally also depends on a swing in a global AI trade that could reverse.</dd>
+          <dt>India's stance</dt><dd>No official position; markets are not government policy. The RBI raised its repo rate by 25 basis points to 5.50% on 7 October; I found no new RBI action on 16 October.</dd>
+          <dt>Competing viewpoints</dt><dd>Bulls point to improved results and cheaper valuations. Cautious voices, per the "valuation normalisation" reading, say the rally is not yet a demand recovery. My own reading: high oil prices, which bear on inflation and the rupee, are a separate risk for the wider market.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Markets reward and punish quickly; say that you would judge the sector by deals and jobs over several quarters, not by one strong week."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Nifty IT</span> <span class="chip">AI disruption</span> <span class="chip">Q2 earnings</span> <span class="chip">Brent crude</span> <span class="chip">RBI repo rate</span></p>
+        <p class="source">Sources: <a href="https://www.reuters.com/world/india/indias-battered-it-stocks-head-best-week-18-years-earnings-boost-2026-10-16/">Reuters, 16 Oct</a>; <a href="https://www.business-standard.com/markets/news/indian-it-stocks-post-best-weekly-gain-in-18-years-amid-global-ai-sell-off-126101601303_1.html">Business Standard, 16 Oct</a>; <a href="https://www.livemint.com/market/stock-market-news/nifty-it-posts-best-weekly-gain-in-18-years-as-q2-earnings-revive-investor-interest-which-stocks-led-the-rally-11792148652063.html">Mint, 16 Oct</a>.</p>
+      </article>
+
+      <article id="gaganyaan">
+        <p class="tag">10 / India · Space &amp; Science</p>
+        <h2>ISRO completes Crew Module-Service Module separation tests for Gaganyaan ahead of the first uncrewed G1 mission</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> ISRO said on 16 October that it has completed a series of Crew Module-Service Module separation tests at the Vikram Sarabhai Space Centre in Thiruvananthapuram. The tests validate the system that detaches the crew capsule before re-entry. ISRO says G1, the first uncrewed Gaganyaan flight, is targeted for 2026.</p>
+        <dl>
+          <dt>What happened?</dt><dd>ISRO's release and India Today say the tests simulated severing multiple electrical and fluid umbilicals and checked the separation system, avionics and inertial navigation tolerance to separation shocks, along with the crew module uprighting system and the thermal and humidity control system. ISRO said the results give confidence in the system. No launch date for G1 was announced in the reports I found.</dd>
+          <dt>Why it matters</dt><dd>A clean separation before re-entry is essential for crew survival, so this is a safety gate for human spaceflight. Passing it supports but does not guarantee the G1 timeline, with about two and a half months of 2026 left, my observation.</dd>
+          <dt>India's stance</dt><dd>Official, from ISRO: tests successfully completed and G1 targeted for launch in 2026.</dd>
+          <dt>Competing viewpoints</dt><dd>Supporters see steady, methodical progress toward India's first crewed flight. I found no new criticism of these tests on this date.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Safety-critical systems are proven step by step; say that you would not trade a tested separation for a faster launch date."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Gaganyaan G1</span> <span class="chip">Crew module</span> <span class="chip">VSSC</span> <span class="chip">Human spaceflight</span> <span class="chip">Re-entry safety</span></p>
+        <p class="source">Sources: <a href="https://www.isro.gov.in/Crew_Module_Service_Module_Separation_Tests.html">ISRO, 16 Oct</a>; <a href="https://www.indiatoday.in/science/gaganyaan-mission/story/gaganyaan-crew-module-separation-tests-isro-2026-g1-launch-3018951-2026-10-16">India Today, 16 Oct</a>.</p>
+      </article>
+
+      <article id="bhandari-governor">
+        <p class="tag">11 / India · Politics &amp; Constitutional Offices</p>
+        <h2>BJP stands by Dushyant Gautam's Sikkim Governor appointment while privately fearing the Ankita Bhandari row</h2>
+        <p class="summary"><span class="label">In ~50 words:</span> Hindustan Times reports on 16 October that the BJP officially says there is no evidence against Dushyant Gautam, but privately fears the "immunity" argument could resonate with young voters. Congress wants the Governor appointment withheld until the court-monitored CBI probe into the Ankita Bhandari murder ends.</p>
+        <dl>
+          <dt>What happened?</dt><dd>Continuing the Bhandari story from the 15 October brief: Hindustan Times says the BJP officially maintains there is no evidence against Gautam, while privately fearing that the Article 361 "immunity" argument will resonate with youth and wanting a "sharp and effective counter". The Hindu reports that Rahul Gandhi wrote to President Droupadi Murmu on 15 October asking her to reconsider the appointment. The New Indian Express reports that Ankita's father says the CBI probe began after an eight-month delay and is timed before the 2027 election; Chief Minister Dhami had recommended the probe in February 2026. ADGP Murugesan said on 15 October that all three accused were arrested within 24 hours and that a special investigation team filed a 500-page chargesheet in 88 days. All claims involving Gautam remain allegations; I found no finding against him.</dd>
+          <dt>Why it matters</dt><dd>It tests how far constitutional immunity and political appointments should be allowed to shadow an unresolved investigation, in a state heading to elections in 2027.</dd>
+          <dt>India's stance</dt><dd>The BJP's position, as reported, is that there is no evidence against Gautam. I found no statement from the Presidential office or the Union Home Ministry as of 16 October.</dd>
+          <dt>Competing viewpoints</dt><dd>Congress says the post could provide "immunity" and wants a hold until the CBI probe ends. The BJP says there is no evidence against Gautam. The Bhandari family issued a 24-hour ultimatum seeking his removal. I found no court ruling on the question.</dd>
+        </dl>
+        <p class="cue"><strong>SSB cue:</strong> "Public trust depends on timing; say that you would keep the presumption of innocence but support a transparent, time-bound probe so that no office looks like a shelter."</p>
+        <p class="explore"><strong>Explore:</strong> <span class="chip">Article 361</span> <span class="chip">Governor's appointment</span> <span class="chip">CBI probe</span> <span class="chip">Presumption of innocence</span> <span class="chip">Uttarakhand polls 2027</span></p>
+        <p class="source">Sources: <a href="https://www.hindustantimes.com/india-news/dushyant-gautam-s-gubernatorial-role-puts-uttarakhand-bjp-in-a-bind-amid-ankita-bhandari-murder-row-101792116243272.html">Hindustan Times, 16 Oct</a>; <a href="https://www.thehindu.com/news/national/rahul-gandhi-urges-president-to-reconsider-dushyant-gautams-appointment-as-governor-over-pending-cbi-probe/article71588989.ece">The Hindu, 15 Oct</a>; <a href="https://www.newindianexpress.com/india/2026/Oct/13/ankita-bhandari-case-father-questions-cbi-probe-congress-protests-dushyant-gautams-appointment-as-governor">The New Indian Express, 13 Oct</a>.</p>
+      </article>
+    </section>
+
+    <section class="revision" aria-labelledby="revision-title">
+      <h2 id="revision-title">60-second revision: three useful connections</h2>
+      <ol>
+        <li><strong>Compared with 15 October 2026:</strong> The CJP story moved from a Supreme Court notice to the march day, with Dipke and Bora detained. The Houthi-Saudi story moved from the Medina interception to Saudi Arabia accusing Iran and a Security Council presidential statement. The US trade story moved from a State Department itinerary to MEA confirming Jaishankar-Rubio talks on 20 October. The temple plot gained its first Indian reaction, the Bhandari row gained the BJP's stance, and Starshield and the diesel story folded into the EU summit. India's UNSC statement, INS Samarthak, Sitharaman on China and ASEAN, the Nifty IT rally and the Gaganyaan separation tests are new. The Rajnath conclave, GSAT-7C and Varunastra, Ladakh names, Hormuz, trade and rupee, Yes Bank AT1, CTF 154 and Asian Games stories are not carried forward because I found no material new development in the searches I ran.</li>
+        <li><strong>Connective theme:</strong> The West Asia war now reaches India as Indian lives, ships and prices: an Indian killed in Riyadh, five ship attacks, Brent near $110 and an energy-heavy agenda for the Rubio and UAE meetings, so protecting citizens and diversifying energy are the common answer.</li>
+        <li><strong>Connective theme:</strong> Dependence and self-reliance: Samarthak and Gaganyaan show India building its own capacity, while China's market barriers, Starshield's control and IT's exposure to the AI cycle show the cost of relying on others; and at home, rights versus order (the CJP march) and accountability (the Governor row) test institutions.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Prepared for SSB Group Discussion, Lecturette and Personal Interview on 16 October 2026. Summaries and viewpoints are original study notes, not reproductions of linked reporting. Follow source updates before quoting figures; political accusations and sabotage attributions remain attributed claims.</div>
+  </footer>
+</body>
+</html>
